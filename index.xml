@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grant Hurley</title>
-    <link>https://www.granthurley.ca/index.xml</link>
+    <link>http://www.granthurley.ca/index.xml</link>
     <description>Recent content on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 13 Mar 2017 15:52:50 -0400</lastBuildDate>
-    <atom:link href="https://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>resume</title>
-      <link>https://www.granthurley.ca/resume/</link>
+      <link>http://www.granthurley.ca/resume/</link>
       <pubDate>Mon, 13 Mar 2017 15:52:50 -0400</pubDate>
       
-      <guid>https://www.granthurley.ca/resume/</guid>
+      <guid>http://www.granthurley.ca/resume/</guid>
       <description>
 
 &lt;h3 id=&#34;current-roles&#34;&gt;Current Roles&lt;/h3&gt;
@@ -83,10 +83,10 @@
     
     <item>
       <title>research</title>
-      <link>https://www.granthurley.ca/research/</link>
+      <link>http://www.granthurley.ca/research/</link>
       <pubDate>Thu, 09 Feb 2017 08:48:30 -0500</pubDate>
       
-      <guid>https://www.granthurley.ca/research/</guid>
+      <guid>http://www.granthurley.ca/research/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Research Interests:&lt;/strong&gt; I am interested in a bunch of things relating to archives and libraries, including: making digital preservation accessible and actionable; digital preservation standards and certification; open government, open data, and citizen engagement; and subjects relating to archival theory and practice more broadly, such as community archives and decolonization.&lt;/p&gt;
@@ -165,13 +165,13 @@
     
     <item>
       <title>about</title>
-      <link>https://www.granthurley.ca/about/</link>
+      <link>http://www.granthurley.ca/about/</link>
       <pubDate>Wed, 08 Feb 2017 16:16:04 -0500</pubDate>
       
-      <guid>https://www.granthurley.ca/about/</guid>
+      <guid>http://www.granthurley.ca/about/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://www.granthurley.ca/img/hurley2.jpg&#34; class=&#34;me&#34; alt=&#34;Grant Hurley&#34; align=&#34;right&#34;;&gt; Hello. I am an archivist and librarian. I currently work as the Digital Preservation Librarian for Scholars Portal, a service of the Ontario Council of University Libraries. OCUL is a 21-member consortium of academic libraries in Ontario. In this role, I am responsible for supporting the preservation of shared licenced content content such as ejournals and books and helping our members preserve their own digital assets. I oversee developing and maintaing services and projects, research issues and questions, keep on top of digital preservation happenings, design and implement workflows, and consult on licencing issues. I also serve as Director without Portfolio and &lt;em&gt;Off the Record&lt;/em&gt; Editor with the &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario&lt;/a&gt;, as an Ex Officio Director and Book Design Awards Catalogue Project Manager for &lt;a href=&#34;http://www.alcuinsociety.com&#34; target=&#34;_blank&#34;&gt;The Alcuin Society&lt;/a&gt;, and as a researcher with the &lt;a href=&#34;http://www.interparestrust.org&#34; target=&#34;_blank&#34;&gt;InterPARES Trust&lt;/a&gt; project.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.granthurley.ca/img/hurley2.jpg&#34; class=&#34;me&#34; alt=&#34;Grant Hurley&#34; align=&#34;right&#34;;&gt; Hello. I am an archivist and librarian. I currently work as the Digital Preservation Librarian for Scholars Portal, a service of the Ontario Council of University Libraries. OCUL is a 21-member consortium of academic libraries in Ontario. In this role, I am responsible for supporting the preservation of shared licenced content content such as ejournals and books and helping our members preserve their own digital assets. I oversee developing and maintaing services and projects, research issues and questions, keep on top of digital preservation happenings, design and implement workflows, and consult on licencing issues. I also serve as Director without Portfolio and &lt;em&gt;Off the Record&lt;/em&gt; Editor with the &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario&lt;/a&gt;, as an Ex Officio Director and Book Design Awards Catalogue Project Manager for &lt;a href=&#34;http://www.alcuinsociety.com&#34; target=&#34;_blank&#34;&gt;The Alcuin Society&lt;/a&gt;, and as a researcher with the &lt;a href=&#34;http://www.interparestrust.org&#34; target=&#34;_blank&#34;&gt;InterPARES Trust&lt;/a&gt; project.&lt;/p&gt;
 
 &lt;p&gt;I started my career as a summer archives assistant at the &lt;a href=&#34;http://ccarchives.ca&#34; target=&#34;_blank&#34;&gt;Charlotte County Archives&lt;/a&gt; in my hometown of St. Andrews, New Brunswick. I was 16 and it was my first real summer job - and it turns out, led to my career! I returned to the Archives for three summers after that, and in that time, fell in love with the exciting and dynamic work that happens in archives on a daily basis. After pursuing a research interest in Canadian literature through a BA and MA, I completed the Dual Master of Archival Studies and Master of Library and Information Studies program at the University of British Columbia in 2015.&lt;/p&gt;
 
@@ -189,7 +189,7 @@
 2014 article describing my work settiung up UBC Okanagan&amp;rsquo;s Special Collections&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.winesandvines.com/template.cfm?section=news&amp;content=126744&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Surprise: It&amp;rsquo;s Riesling and Syrah - Analysis points to British Columbia&amp;rsquo;s Candidates for Signature Grapes&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
-2014 article on my UBC &lt;a href=&#34;https://www.granthurley.ca/pdf/Hurley-BCWineGrape.pdf&#34;&gt;visual analytics class project&lt;/a&gt; to identify BC&amp;rsquo;s signature wine grapes.&lt;/p&gt;
+2014 article on my UBC &lt;a href=&#34;http://www.granthurley.ca/pdf/Hurley-BCWineGrape.pdf&#34;&gt;visual analytics class project&lt;/a&gt; to identify BC&amp;rsquo;s signature wine grapes.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://beatymuseum.ubc.ca/2013/11/20/cowan-tetrapod-collection-databases-have-evolved/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Cowan Tetrapod Databases Have Evolved!&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
 2012 article on my work with the Beaty Biodiversity Museum.&lt;/p&gt;
@@ -236,11 +236,11 @@
     
     <item>
       <title>Hello World &amp; Situating Myself</title>
-      <link>https://www.granthurley.ca/blog/hello-world--situating-myself/</link>
+      <link>http://www.granthurley.ca/blog/hello-world--situating-myself/</link>
       <pubDate>Wed, 08 Feb 2017 16:02:31 -0500</pubDate>
       
-      <guid>https://www.granthurley.ca/blog/hello-world--situating-myself/</guid>
-      <description>&lt;p&gt;In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study. I&amp;rsquo;m interested in lots of things relating to these fields, which you can find links to &lt;a href=&#34;https://www.granthurley.ca/research/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://www.granthurley.ca/blog/hello-world--situating-myself/</guid>
+      <description>&lt;p&gt;In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study. I&amp;rsquo;m interested in lots of things relating to these fields, which you can find links to &lt;a href=&#34;http://www.granthurley.ca/research/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I recently had the pleasure of reading Erin Wunker&amp;rsquo;s &lt;em&gt;Notes from a Feminist Killjoy: Essays on Everyday Life&lt;/em&gt; (BookThug, 2016). In her introduction, Wunker describes the importance of accounting for one&amp;rsquo;s situated knowlege, an intention cited from scholar Donna Haraway. &amp;ldquo;Situating yourself enacts the deliberate practice of locating your own identity and experiences as coming from somewhere and being mediated by certain things such as your race, gender and class,&amp;rdquo; Wunker writes, &amp;ldquo;Laying these things out for yourself locates your way of being in the world - your knowledge - within larger systems of knowing&amp;rdquo; (p. 30). I&amp;rsquo;ve heard this sentiment in various forms through my education, but what underscored Wunker&amp;rsquo;s point for me was the reminder that situating yourself is intended to reveal, and account for, one&amp;rsquo;s myopias: the gaps in personal knowledge and experience that result in blind spots relating to other knowledges and experiences. In doing so, you are &amp;ldquo;opening yourself to the truth that you don&amp;rsquo;t have access to every experience&amp;rdquo; (p. 30). I love to think about the big questions of an archivally-minded life, many of which relate to the keeping of memory and therefore the rights and powers that surround that memory. Thinking and writing on these subjects is necessarily the subject of certain kinds of knowledge and experience, and it&amp;rsquo;s important for us archivists to remember that our views and approaches to archives may not be applicable to all situations, or even, understandable to people and communities that exist outside our own.&lt;/p&gt;
 
@@ -248,7 +248,7 @@
 
 &lt;div id=&#34;container&#34;&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://www.granthurley.ca/img/ccarchives.jpg&#34; alt=&#34;Charlotte County Archives&#34; align=&#34;right&#34;&gt;
+    &lt;img src=&#34;http://www.granthurley.ca/img/ccarchives.jpg&#34; alt=&#34;Charlotte County Archives&#34; align=&#34;right&#34;&gt;
     &lt;figcaption&gt;The Charlotte County Archives, where it all started. The fact that it is in a prison is incidental and not a metaphor for my career, hopefully (author photo).&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;

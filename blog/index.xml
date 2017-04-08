@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Grant Hurley</title>
-    <link>https://www.granthurley.ca/blog/index.xml</link>
+    <link>http://www.granthurley.ca/blog/index.xml</link>
     <description>Recent content in Blog on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 08 Feb 2017 16:02:31 -0500</lastBuildDate>
-    <atom:link href="https://www.granthurley.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.granthurley.ca/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello World &amp; Situating Myself</title>
-      <link>https://www.granthurley.ca/blog/hello-world--situating-myself/</link>
+      <link>http://www.granthurley.ca/blog/hello-world--situating-myself/</link>
       <pubDate>Wed, 08 Feb 2017 16:02:31 -0500</pubDate>
       
-      <guid>https://www.granthurley.ca/blog/hello-world--situating-myself/</guid>
-      <description>&lt;p&gt;In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study. I&amp;rsquo;m interested in lots of things relating to these fields, which you can find links to &lt;a href=&#34;https://www.granthurley.ca/research/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://www.granthurley.ca/blog/hello-world--situating-myself/</guid>
+      <description>&lt;p&gt;In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study. I&amp;rsquo;m interested in lots of things relating to these fields, which you can find links to &lt;a href=&#34;http://www.granthurley.ca/research/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I recently had the pleasure of reading Erin Wunker&amp;rsquo;s &lt;em&gt;Notes from a Feminist Killjoy: Essays on Everyday Life&lt;/em&gt; (BookThug, 2016). In her introduction, Wunker describes the importance of accounting for one&amp;rsquo;s situated knowlege, an intention cited from scholar Donna Haraway. &amp;ldquo;Situating yourself enacts the deliberate practice of locating your own identity and experiences as coming from somewhere and being mediated by certain things such as your race, gender and class,&amp;rdquo; Wunker writes, &amp;ldquo;Laying these things out for yourself locates your way of being in the world - your knowledge - within larger systems of knowing&amp;rdquo; (p. 30). I&amp;rsquo;ve heard this sentiment in various forms through my education, but what underscored Wunker&amp;rsquo;s point for me was the reminder that situating yourself is intended to reveal, and account for, one&amp;rsquo;s myopias: the gaps in personal knowledge and experience that result in blind spots relating to other knowledges and experiences. In doing so, you are &amp;ldquo;opening yourself to the truth that you don&amp;rsquo;t have access to every experience&amp;rdquo; (p. 30). I love to think about the big questions of an archivally-minded life, many of which relate to the keeping of memory and therefore the rights and powers that surround that memory. Thinking and writing on these subjects is necessarily the subject of certain kinds of knowledge and experience, and it&amp;rsquo;s important for us archivists to remember that our views and approaches to archives may not be applicable to all situations, or even, understandable to people and communities that exist outside our own.&lt;/p&gt;
 
@@ -23,7 +23,7 @@
 
 &lt;div id=&#34;container&#34;&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://www.granthurley.ca/img/ccarchives.jpg&#34; alt=&#34;Charlotte County Archives&#34; align=&#34;right&#34;&gt;
+    &lt;img src=&#34;http://www.granthurley.ca/img/ccarchives.jpg&#34; alt=&#34;Charlotte County Archives&#34; align=&#34;right&#34;&gt;
     &lt;figcaption&gt;The Charlotte County Archives, where it all started. The fact that it is in a prison is incidental and not a metaphor for my career, hopefully (author photo).&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
