@@ -10,7 +10,7 @@
     <atom:link href="http://www.granthurley.ca/fixed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>resume</title>
+      <title>Grant Hurley | Résumé</title>
       <link>http://www.granthurley.ca/resume/</link>
       <pubDate>Mon, 13 Mar 2017 15:52:50 -0400</pubDate>
       
@@ -42,9 +42,9 @@
 
 &lt;p&gt;May - August 2014 &amp;mdash; Co-op Student, Records Management and Library, Teck Resources Ltd.&lt;/p&gt;
 
-&lt;p&gt;January - April, 2014 &amp;mdash; Special Collections Project Assistant, University of British Columbia Okanagan Library&lt;/p&gt;
+&lt;p&gt;January - April 2014 &amp;mdash; Special Collections Project Assistant, University of British Columbia Okanagan Library&lt;/p&gt;
 
-&lt;p&gt;May - August, 2013 &amp;mdash; Student Librarian, BGC Engineering&lt;/p&gt;
+&lt;p&gt;May - August 2013 &amp;mdash; Student Librarian, BGC Engineering&lt;/p&gt;
 
 &lt;p&gt;May 2012 - December 2014 &amp;ndash; Curatorial and Informatics Assistant, Beaty Biodiversity Museum, University of British Columbia&lt;/p&gt;
 
@@ -78,11 +78,22 @@
 2010 &amp;mdash; SSHRC Joseph-Armand Bombardier Canada Graduate Scholarship&lt;br /&gt;
 2010 &amp;mdash; Allison Watson Beveridge Prize, Mount Allison University&lt;br /&gt;
 2009 &amp;mdash; Crake Summer Undergraduate Research Fellowship, Mount Allison University&lt;/p&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/script&gt;
 </description>
     </item>
     
     <item>
-      <title>research</title>
+      <title>Grant Hurley | Research</title>
       <link>http://www.granthurley.ca/research/</link>
       <pubDate>Thu, 09 Feb 2017 08:48:30 -0500</pubDate>
       
@@ -121,7 +132,7 @@
 
 &lt;p&gt;Hurley, G. (2012). The lyric west: Reading the Vancouver Poetry Society, 1916-1974. (Unpublished master of arts dissertation). University of British Columbia, Vancouver, British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0072770&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;Hurley, G. (2010). Coming of age: Canadian children’s literature and national identities, 1900-1945 (Unpublished bachelor of arts dissertation). Mount Allison University, Sackville, New Brunswick. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;/grant/pdf/Hurley-ComingOfAge.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Hurley, G. (2010). Coming of age: Canadian children’s literature and national identities, 1900-1945 (Unpublished bachelor of arts dissertation). Mount Allison University, Sackville, New Brunswick. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;/pdf/Hurley-ComingOfAge.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;posters-paper-presentations&#34;&gt;Posters &amp;amp; Paper Presentations&lt;/h3&gt;
 
@@ -135,7 +146,7 @@
 
 &lt;p&gt;Hurley, G. (2016). The long-term preservation of digital records and information. 7th Annual Information Management Session, Federation of Medical Regulatory Authorities of Canada. 11 June, 2016. Banff, Alberta.&lt;/p&gt;
 
-&lt;p&gt;Hurley, G. (2013). Determining a signature B.C. wine grape. UBC iSchool Visual Analytics Class Poster Session. 26 November, 2013. University of British Columbia, Vancouver, British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Poster&#34; onclick=&#34;window.open(&#39;/grant/pdf/Hurley-BCWineGrape.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Hurley, G. (2013). Determining a signature B.C. wine grape. UBC iSchool Visual Analytics Class Poster Session. 26 November, 2013. University of British Columbia, Vancouver, British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Poster&#34; onclick=&#34;window.open(&#39;/pdf/Hurley-BCWineGrape.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Hurley, G. (2013). Reconciling the archive: Library and Archives Canada versus the Truth and Reconciliation Commission. Endnotes Graduate Conference in English. 11-12 May, 2013. University of British Columbia, Vancouver, British Columbia.&lt;/p&gt;
 
@@ -159,12 +170,23 @@
 
 &lt;p&gt;Settling the language: Dictionaries and language change, 1490 to today. 3 June - 15 August, 2015. Rare Books and Special Collections, University of British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Catalogue&#34;onclick=&#34;window.open(&#39;http://rbsc-03feb2015.sites.olt.ubc.ca/files/2015/06/Catalogue.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;The first Roman Catholic chuch and cemetery, 1825-1859. St. Andrews, New Brunswick: Church of Saint Andrew, 2010. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Brochure&#34; onclick=&#34;window.open(&#39;/grant/pdf/Hurley-FirstRomanCatholicCemetery.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;The first Roman Catholic chuch and cemetery, 1825-1859. St. Andrews, New Brunswick: Church of Saint Andrew, 2010. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Brochure&#34; onclick=&#34;window.open(&#39;/pdf/Hurley-FirstRomanCatholicCemetery.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/script&gt;
 </description>
     </item>
     
     <item>
-      <title>about</title>
+      <title>Grant Hurley | About</title>
       <link>http://www.granthurley.ca/about/</link>
       <pubDate>Wed, 08 Feb 2017 16:16:04 -0500</pubDate>
       
@@ -182,7 +204,7 @@
 &lt;p&gt;&lt;a href=&#34;http://www1.toronto.ca/City%20Of%20Toronto/City%20Clerks/Toronto%20Archives/PDFs/Archives%20annual%20report%202014.pdf&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Grant Hurley and the Kent Family fonds&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
 2015 article on my work experience at the City of Toronto Archives for their 2014 Annual Report&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://artscoop.ubc.ca/2015/03/16/grant-hurley/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;2014 UBC iSchool (SLAIS MAS Co-op Student of the Year&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://artscoop.ubc.ca/2015/03/16/grant-hurley/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;2014 UBC iSchool (SLAIS) MAS Co-op Student of the Year&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
  2014 article on my work experience at Teck Resources Ltd. and UBC Arts Co-op Award&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://okanaganlife.com/ubc0-celebrates-opening-of-special-collections-room/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;UBC Celebrates Opening of Special Collections Room&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
@@ -231,6 +253,17 @@
 &lt;p&gt;Dispatches: Kombucha 101 at Homesteader&amp;rsquo;s Emporium. November 16, 2013. &lt;em&gt;Sad Mag&lt;/em&gt; &lt;a href=&#34;http://archive.sadmag.ca/news/2013/11/dispatches-kombucha-101-at-homesteaders-emporium/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Vancouver notables: Rick Havlak. November 2, 2013. &lt;em&gt;Sad Mag&lt;/em&gt; &lt;a href=&#34;http://archive.sadmag.ca/news/2013/11/vancouver-notables-rick-havlak/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/script&gt;
 </description>
     </item>
     
