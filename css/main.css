@@ -704,7 +704,7 @@ section.main .content .markdown blockquote p:last-child {
 
 
 
-#container {
+#containerr {
     text-align: center; 
     width: 65%;
     height: auto;
@@ -716,6 +716,20 @@ section.main .content .markdown blockquote p:last-child {
     background: rgba(0, 0, 0, 0.5);
     color: #FFF;
 }
+
+#containerl {
+    text-align: center; 
+    width: 65%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 1rem;
+    border: 10px solid #000;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
 
 section.main .content .markdown table {
   margin-bottom: 1rem;
