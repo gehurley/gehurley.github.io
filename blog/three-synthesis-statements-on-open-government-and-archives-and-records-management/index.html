@@ -41,12 +41,11 @@
 
 
 
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css">
     
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css?t=1522329279">
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css?t=1522329279">
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css?t=1522329279">
-    
-        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css?t=1522329279">
+        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css">
     
 
 
@@ -200,20 +199,25 @@
             <br>
             <div class="disqus">
                 <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'granthurley';
-    var disqus_identifier = 'http:\/\/www.granthurley.ca\/blog\/three-synthesis-statements-on-open-government-and-archives-and-records-management\/';
-    var disqus_title = 'Three Synthesis Statements on Open Government and Archives and Records Management';
-    var disqus_url = 'http:\/\/www.granthurley.ca\/blog\/three-synthesis-statements-on-open-government-and-archives-and-records-management\/';
-
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "granthurley" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
             </div>
         </div>
     </div>

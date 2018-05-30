@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grant Hurley</title>
-    <link>http://www.granthurley.ca/index.xml</link>
+    <link>http://www.granthurley.ca/</link>
     <description>Recent content on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 30 Nov 2017 11:05:13 -0500</lastBuildDate>
-    <atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Three Synthesis Statements on Open Government and Archives and Records Management</title>
@@ -15,53 +17,7 @@
       <pubDate>Thu, 30 Nov 2017 11:05:13 -0500</pubDate>
       
       <guid>http://www.granthurley.ca/blog/three-synthesis-statements-on-open-government-and-archives-and-records-management/</guid>
-      <description>
-
-&lt;p&gt;As the &lt;a href=&#34;https://interparestrust.org/&#34; target=&#34;_blank&#34;&gt;InterPARES Trust&lt;/a&gt; project starts to wrap up, it has provided an occaison to reflect on the five years of work (!) that was completed. I was priveleged to work as a research assistant and later research consultant (i.e. pro bono post-graduation) on project NA08: &amp;ldquo;The Implications of Open Government, Open Data, and Big Data on the Management of Digital Records in an Online Environment.&amp;rdquo; NA08 included some fantastic people and inspirational professionals: Valerie Léveillé, John McDonald, Kelly Rovegno, Jim Suderman, and Kat Timms, who produced an impressive body of papers and insights from this project. The project investigated open government along a number of lines, but was united by an interest in how open government relates to the theory and practice of archives and records management and where the gaps and challenges between the two lie. InterPARES members are currently preparing a book on the project&amp;rsquo;s outputs. Offering some feedback on this work inspired me to write a short piece summarizing some of the key issues I experienced in working on NA08 and some of the things that continue to interest me in this area. Open government has a lot of promise and can include a lot of different types of activities and ideas under its umbrella. All of them have potential impacts and interactions with archives and records management. I am posting this little review piece here: three short(ish) synthesis statements that draw from our work and some of the insights we gained. It&amp;rsquo;s far from perfect, but I hope it will provide for an entry for the curious into this complex and evolving area.&lt;/p&gt;
-
-&lt;div id=&#34;containerl&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/f1244_it0674.jpg&#34; alt=&#34;Crowd of women, 1920s&#34; align=&#34;left&#34;&gt;
-    &lt;figcaption&gt;“Crowd of Women” [ca. 1920] by William James, City of Toronto Archives, Fonds 1244, Item 674.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;the-relationship-between-open-government-and-archives-records-management&#34;&gt;The Relationship Between Open Government and Archives/Records Management&lt;/h3&gt;
-
-&lt;p&gt;If a key goal of open government is to encourage citizens to access and use government information, then public archives are arguably the oldest form of open government. Public archives have long been the central place where citizens interested in acquiring information about their governments (and themselves) could turn. For access to records that have yet to be transferred to the archives, systems for freedom of information requests that attempt to balance the need for security and privacy with rights to access have been enabled by governments the world over. The relatively recent embrace of open government has bypassed archives and freedom of information processes somewhat with an emphasis on rapid access to government information through the proactive disclosure of records and making machine-readable and sharable government data readily available. In Canada, open government programs are often organizationally separate from their archives, records and information management counterparts. But both areas clearly have much in common: an interest in providing accurate, authentic, and trustworthy information to citizens. They key difference between the two areas at present relate to the timeline of access and the scale of aggregation. Open government information and data both reduces and lengthens access timelines. Government data created in one week might be made available the next, and that same dataset may be still available much longer in the future than if it was managed in a traditional “retain and dispose” records environment. The scale of data aggregation means that information derived from records and transformed into machine-readable datasets can be easily queried, analyzed and re-used in ways that access to original individual records could not have supported or their creators even intended. But the processes of aggregation (sometimes called “mashups”) could obscure their links back to original records, leading to doubts about the data’s accuracy and authenticity. These conditions surrounding access and aggregation open up a whole host of challenges and questions. What information should be made available? How long should it be made available? How can its quality and accuracy be verified? What releases of information may impact the privacy of individuals, and how to strike the balance between privacy and openness? And how can open data be made accessible and usable from a legal standpoint and a human standpoint?&lt;/p&gt;
-
-&lt;p&gt;For questions surrounding access, approaches to teasing apart these questions should follow the trail of the business process, as John McDonald and Valerie Léveillé write in their article &lt;a href=&#34;http://doi.org/10.1108/RMJ-01-2014-0010&#34; target=&#34;_blank&#34;&gt;“Whither the Retention Schedule in the Era of Big Data and Open Data?”&lt;/a&gt; “From a recordkeeping perspective,” they write, “big data and open data concepts and issues are like a tree where the roots represent the business processes of an organization and the branches represent the extension and augmentation of these processes to form the processes that underpin big data and open data initiatives” (p. 117). Among the potential approaches discussed in their paper are that “public-use datasets should be removed from [a] portal on a regular basis when they became outdated, but that the master dataset used to generate the public use datasets, together with their supporting documentation, should be retained for evidentiary purposes” (p. 112).&lt;/p&gt;
-
-&lt;p&gt;In terms of the aggregation of information, key issues are determining the authenticity and accuracy of the information in the dataset and ensuring an appropriate balance between privacy and access. In their paper &lt;a href=&#34;http://doi.org/10.1353/ils.2015.0010&#34; target=&#34;_blank&#34;&gt;“Through a Records Management Lens: Creating a Framework for Trust in Open Government and Open Government Information,”&lt;/a&gt; Valerie Léveillé and Katherine Timms also discuss these issues in the context of open government as a business process in three stages: initiation; identification and distribution; and promotion and evaluation. For example, they recommend using records classification schemes as an initial inventory to identify candidate records for publication in open information and open data initiatives (p. 173). They emphasize the importance of preserving context in which records were created: the “separate business functions and processes, information concerning the work processes, the system and the environment that guided the creation, capture, and control of the source material” that together with the processes that lead to the publication of open data or information, “provide a complete and accurate picture of the information’s context and meaning and, therefore, a basis for trust in the information” (p. 173). Data generated from an internal source and aggregated for public use must be traced back to its originating record for authenticity purposes. McDonald and Léveillé suggest that in the case of “mashed up” data from various sources, documentation on the processes used to perform these aggregations would be retained as evidence (p. 113). In another instance where confidential data has to be deleted due to disposition rules, they write of an audit trail approach that could be used to verify anonymized data that is kept much longer (p. 113). Distribution involves determining the conditions for access: how data may be licensed to users and what rights they have over the reproduction and dissemination of that data. Open data licenses are becoming a common response to this issue. At the stage of evaluation, the question relates to the accessibility of the data itself: can the majority of users access and use the data? Or are specialized tools and training required? Education, outreach and training for specialized and non-specialized users regarding systems and tools may be the necessary outcome after the initial push to put data online. For open data to fulfill the lofty democratic goals that are often cited to support it (trust, transparency, accountability, engagement and so on), its accessibility must also be democratic.&lt;/p&gt;
-
-&lt;h3 id=&#34;data-flows-from-government-to-citizen-and-back&#34;&gt;Data flows: From Government to Citizen and Back&lt;/h3&gt;
-
-&lt;p&gt;One potential assumption of an archivist records manager working to support open government is that the flow of information always runs from government to citizen. Governments create information, package it for consumption, and citizens access it. And while citizens have long been the subject of government information, it is less often the case they actively create it. Citizen engagement processes, particularly ones that encourage uses of civic technologies, are in the position to reverse this condition. Through citizen engagement processes, citizens create records that governments are in a position to receive, analyze, store, and manage, potentially for the long term. This is not to say that aspects of this two-way relationship have not always been present: elections, town hall meetings and letters and depositions submitted to officials have all been common forms of citizen engagement with long legacies in governments. Similarly, citizens often have the opportunity to submit complaints or requests regarding government services. Rather, citizen engagement may create new forms and sources of data that touch upon a much wider array of services and functions than previous, and citizen-derived information, as in open government data, may be aggregated and analyzed at a much larger scale. Governments that use citizen information to provide for decision-making must be able to demonstrate the trustworthiness and transparency of the processes taken to make those decisions. A useful method for examining how these flows of information might impact records creation is through the IAP2 Public Participation Spectrum, which describes the qualities of different kinds of citizen-government interactions at different levels. In &lt;a href=&#34;https://interparestrust.org/assets/public/dissemination/NA08_20161001_ManagingRecordsCitizenEngagement_Primer_Final.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Managing Records of Citizen Engagement: A Primer&lt;/em&gt;&lt;/a&gt; myself, Valerie Léveillé, and John McDonald trace the different levels of the IAP2 Spectrum mapped to different records contexts as a method of identifying issues and strategies for records management.&lt;/p&gt;
-
-&lt;p&gt;Records and information professionals have to be aware of the ways in which data can flow between governments and citizens, which creates records that may be unanticipated by the usual records schedules. The first is instances in which governments directly seek feedback from citizens as part of a citizen engagement initiative. Such initiatives may seek information in various forms: e-mail submissions, social media comments, structured surveys, opportunities to edit or provide commentary on documents, or more conversational, discourse-based platforms. In consultation-based projects, these processes are intended to end up in some kind of decision or action on a particular issue. The feedback must be analyzed and packaged in such a way to inform decisions, which are then theoretically implemented by a government. At other levels of the IAP2, feedback may actually constitute the decision itself, such as in a vote on an issue, or decision-making processes may be created by back-and-forth discourse and problem-solving. All of these events create information that must be managed and audit trails that attest to how records created by citizens were used and acted on. In many cases, governments are now using sophisticated data analysis methods such as natural language processing software to summarize the opinions from a large corpus of submissions. As I write in &lt;a href=&#34;https://doi.org/10.7577/ta.1956&#34; target=&#34;_blank&#34;&gt;“Your Comments Here: Contextualizing Technologies, Seeking Records and Supporting Transparency for Citizen Engagement,”&lt;/a&gt; “transparency of the whole engagement process, and how different information technologies for input and analysis were used to get from the beginning to the end, is a crucial contributor to establishing trust in the system itself through the availability of evidence” (p. 18).&lt;/p&gt;
-
-&lt;p&gt;Citizens themselves may also create data independent of governments that in turn has an impact on government services. Websites such as &lt;a href=&#34;https://www.fixmystreet.com&#34; target=&#34;_blank&#34;&gt;Fix My Street&lt;/a&gt; or other crowdsourced data collected by third parties could be used to inform governments of a variety of issues, from infrastructure to policy. Governments could potentially take in this data, but it must be verified and packaged in such a way that a government could act upon it. The appropriate rights over the use and ownership of this data would have to be worked out between the creators and governments; if governments receive such data, it is conceivable that that may wish to use it for their own purposes and will have to manage its retention and disposition accordingly.&lt;/p&gt;
-
-&lt;h3 id=&#34;open-government-sustainability-into-the-future&#34;&gt;Open Government Sustainability Into the Future&lt;/h3&gt;
-
-&lt;p&gt;It should not be assumed that the continuation of open government programs is guaranteed. The embrace of open government is politically motivated as a potential method of increasing trust and providing resources to business, among other reasons, but just as a current government might implement and fund open government programs, a succeeding government could abandon them entirely. Lacking statutory requirements, open government programs are far from stable, even on the part of governments who initially championed them. As &lt;a href=&#34;http://policyoptions.irpp.org/magazines/october-2017/progress-on-open-government-is-not-guaranteed/&#34; target=&#34;_blank&#34;&gt;Kent Aitken writes,&lt;/a&gt; “It’s easy for governments to be transparent and to engage citizens when they want to; the question is how to ensure that happens when it’s hard.” Citing rollbacks in commitments to open government within the province of Newfoundland and Labrador in Canada, Aitken concludes that “the lesson that can be drawn from international politics is that progress on open government is not guaranteed.” Though I suppose it cannot be taken as proof of a change in attitudes towards open government within the United States, the US’s fourth action plan for the Open Government Partnership &lt;a href=&#34;https://www.opengovpartnership.org/sites/default/files/United-States_NAP4_Delay-Letter.pdf&#34; target=&#34;_blank&#34;&gt; was announced as delayed on October 31, 2017&lt;/a&gt; due to the need to “fine tune a strong and quality action plan reflective of national priorities” (Graves, 2017). As institutions, public archives have a staying power that comes from a commitment to the long term. Though they can themselves be subject to all manner of politically motivated actions, they tend to stick around much longer due to their foundation in statutes. Similarly, records management processes and rights to access and information and privacy have a similar support, both due to statutory requirements and the cost efficiencies and risk management derived from records and information management activities. Therefore, support from archives and records management for open government processes may be a lead-in towards their increased sustainability, or the two may be poised to mutually benefit from one another. As the &lt;a href=&#34;https://interparestrust.org/assets/public/dissemination/IPT_NA08_FinalReport_1Oct2016_fordistribution_.pdf&#34; target=&#34;_blank&#34;&gt;final report of InterPARES project NA08 concluded,&lt;/a&gt; “the study found that record keeping policy and practice was weak or absent in relation to aspects of Open Government, and particularly in relation to citizen engagement initiatives. Few measures of success were identified for engagement initiatives nor did any criteria seem to be well established within or across jurisdictions reviewed” (p. 4). Herein lies an opportunity to strengthen both.&lt;/p&gt;
-
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;Aitken, K. (2017, October 6). Progress on open government is not guaranteed. &lt;em&gt;Policy Options&lt;/em&gt;. &lt;a href=&#34;http://policyoptions.irpp.org/magazines/october-2017/progress-on-open-government-is-not-guaranteed/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Graves, M. (2017, October 31). Re: United States National Action Plan — Delayed. &lt;a href=&#34;https://www.opengovpartnership.org/sites/default/files/United-States_NAP4_Delay-Letter.pdf&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2017). Your comments here: Contextualizing technologies, seeking records and supporting transparency for citizen engagement. &lt;em&gt;Tidsskriftet Arkiv&lt;/em&gt;, 8(1), 1-25. doi: 10.7577/ta.1956. &lt;a href=&#34;https://doi.org/10.7577/ta.1956&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G., Léveillé, V., &amp;amp; McDonald, J. (2016). &lt;em&gt;Managing records of citizen engagement initiatives: A primer&lt;/em&gt;. &lt;a href=&#34;https://interparestrust.org/assets/public/dissemination/NA08_20161001_ManagingRecordsCitizenEngagement_Primer_Final.pdf&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Léveillé, V., &amp;amp; Timms, K. (2015). Through a records management lens: Creating a framework for trust in open government and open government information. &lt;em&gt;Canadian Journal of Information and Library Science&lt;/em&gt; 39(2), 154-190. doi: 10.1353/ils.2015.0010. &lt;a href=&#34;http://doi.org/10.1353/ils.2015.0010&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;McDonald, J., &amp;amp; Léveillé, V. (2014). Whither the retention schedule in the era of big data and open data? &lt;em&gt;Records Management Journal&lt;/em&gt;, 24(2), 99-121. doi: 10.1108/RMJ-01-2014-0010. &lt;a href=&#34;http://doi.org/10.1108/RMJ-01-2014-0010&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Suderman, J. &amp;amp; Timms, K. (2016). &lt;em&gt;NA08: The implications of open government, open data, and big data on the management of digital records in an online environment&lt;/em&gt;. &lt;a href=&#34;https://interparestrust.org/assets/public/dissemination/IPT_NA08_FinalReport_1Oct2016_fordistribution_.pdf&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>As the InterPARES Trust project starts to wrap up, it has provided an occaison to reflect on the five years of work (!) that was completed. I was priveleged to work as a research assistant and later research consultant (i.e. pro bono post-graduation) on project NA08: &amp;ldquo;The Implications of Open Government, Open Data, and Big Data on the Management of Digital Records in an Online Environment.&amp;rdquo; NA08 included some fantastic people and inspirational professionals: Valerie Léveillé, John McDonald, Kelly Rovegno, Jim Suderman, and Kat Timms, who produced an impressive body of papers and insights from this project.</description>
     </item>
     
     <item>
@@ -70,72 +26,7 @@
       <pubDate>Fri, 23 Jun 2017 11:44:22 -0400</pubDate>
       
       <guid>http://www.granthurley.ca/blog/notes-from-the-aca-screening-of-stories-we-tell/</guid>
-      <description>&lt;p&gt;At the recent ACA conference in Ottawa, I had the wonderful opportunity to host a screening of one of my favorite films - Sarah Polley&amp;rsquo;s 2012 documentary &lt;a href=&#34;http://www.storieswetellmovie.com/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Stories We Tell&lt;/em&gt;&lt;/a&gt;. I&amp;rsquo;ve long been convinced that this film has a lot to say about archives. It’s a film fundamentally concerned with how we understand the past through the contradictions of memory and the opaque borders shared between memories and what has been recorded. The film weaves interviews and narratives with archival footage, documents and photographs into an engaging and emotional story that has so many layers, I find myself coming back to it again and again for inspiration and interest. And there is a fascinating twist that speaks in particular, I think, to archivists concerned with the boundaries of archives and how they are read and interpreted. If you haven&amp;rsquo;t seen the film, do so before reading further. Spoilers are imminent!&lt;/p&gt;
-
-&lt;p&gt;This event came out of a paper proposal I had submitted about &lt;em&gt;Stories We Tell&lt;/em&gt; and Guy Maddin&amp;rsquo;s &lt;em&gt;My Winnipeg&lt;/em&gt; in response to the ACA conference call for papers. The paper didn&amp;rsquo;t fit with the rest of the conference program, alas, but host committee member Jenna Smith suggested an even better idea: screening one of the movies as a conference event. The screening was held on June 8th at the beautiful
-&lt;a href=&#34;http://mayfairtheatre.ca/&#34; target=&#34;_blank&#34;&gt;Mayfair Theatre&lt;/a&gt; in Ottawa. The Mayfair is an independent, single-screen theatre and one of the last examples of such in Canada. It was a perfect venue for the film. All my thanks to the ACA host committee for setting this event up. I provided a bit of commentary and moderated the discussion, the notes from which I&amp;rsquo;ve edited below. You&amp;rsquo;ll find some interpolations based on the audience discussion in square brackets.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Delightful movie screening of &amp;quot;Stories We Tell&amp;quot; tonight hosted by &lt;a href=&#34;https://twitter.com/GrantHurley?ref_src=twsrc%5Etfw&#34;&gt;@GrantHurley&lt;/a&gt; with a great discussion afterwards. &lt;a href=&#34;https://twitter.com/hashtag/ACA2017?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ACA2017&lt;/a&gt; &lt;a href=&#34;https://t.co/o81CiCBY8w&#34;&gt;pic.twitter.com/o81CiCBY8w&lt;/a&gt;&lt;/p&gt;&amp;mdash; Anna St.Onge (@deantiquate) &lt;a href=&#34;https://twitter.com/deantiquate/status/872993458591604736?ref_src=twsrc%5Etfw&#34;&gt;June 9, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-
-&lt;hr /&gt;
-
-&lt;p&gt;The detail that interests me most about &lt;em&gt;Stories We Tell&lt;/em&gt; is the reveal that happens close to the end when Polley shows the process of filming the set recreated family scenes using a Super 8 camera and actors made up to look very convincingly like her family members. Up to that point, she hasn’t been exactly candid about what aspects of the film are originals, such as footage from family sources depicting her real mother, and what parts have been recreated to mimic them. The first time I saw it, I was totally taken aback. Particularly as a first-time viewer, you’re taken along something of an emotional rollercoaster with a number of surprises along the way. And while the archivist-minded part of me was questioning the source of all of this footage – I remember thinking, “how was all of this filmed? Where did it all come from?” – I willingly suspended my disbelief for a while because the film encourages you to do so. [I was surprised to find that a good portion of the audience watching the film for the first time shared this experience. I often think of myself as kind of gullible, but apparently there&amp;rsquo;s something about the film itself (and the clever trickery that Polley uses to convince the viewer) that makes it difficult to tell the originals from the recreations.]&lt;/p&gt;
-
-&lt;p&gt;I’d like to suggest that Polley is doing something particularly interesting here regarding the use of archival materials in films. To begin, I want to distinguish between three main ways, as I see it, of representing archives and archival records on film.&lt;/p&gt;
-
-&lt;p&gt;First, we’ve got the historic or dramatic recreation. This is the form we know best. It&amp;rsquo;s prevalent across lots of genres outside film, like in historic fiction. This is where archival research is used to inform dramatic events or characters’ actions. It gets the most explicit in the kind of TV true crime documentaries where it will say “dramatic reenactment” at the bottom of the screen just in case the audience doesn’t get it. These are performances that are based on archival records. Records informed them, but they are not directly visible.&lt;/p&gt;
-
-&lt;p&gt;Second, we’ve got records that are presented in film as records; as evidence. This is where the filmmaker shows a clip or a photo or the like and it connects with the narration. Again, we see this all the time. Ken Burns is the master of this approach. His documentaries are often made up entirely of records.&lt;/p&gt;
-
-&lt;div id=&#34;containerr&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/NFB-CityofGold.jpg&#34; alt=&#34;Screenshot from City of Gold (dir. Wolf Koenig &amp; Colin Low, National Film Board of Canada, 1957)&#34; align=&#34;right&#34;&gt;
-    &lt;figcaption&gt;Screenshot from the film City of Gold directed by Wolf Koenig &amp; Colin Low, NFB, 1957.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;In this case, the filmmaker gathers and presents records to create a sense of performance. Ken Burns is famous for introducing motion into photographs in the classic zoom into photo to reveal some detail, an approach that is called the &lt;a href=&#34;https://en.wikipedia.org/wiki/Ken_Burns_effect&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Ken Burns effect.&amp;rdquo;&lt;/a&gt; He has a remarkable talent for making static things seem more active and alive in his films. In fact, &lt;a href=&#34;http://www.johnctibbetts.com/PDFs/City%20of%20Gold.pdf&#34; target=&#34;_blank&#34;&gt;he has cited&lt;/a&gt; a NFB film called &lt;a href=&#34;https://www.nfb.ca/film/city_of_gold/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;City of Gold&lt;/em&gt;&lt;/a&gt; as one of his inspirations. And – not to distract too much from the main point – this film was inspired by a collection of gold rush photos held at LAC. We saw this approach as well in the ACA conference’s first morning keynote, where filmmaker Ali Kazimi used a unique motion-based photo montage approach to illustrate his film &lt;a href=&#34;https://www.nfb.ca/film/continuous_journey/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Continuous Journey&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Finally, there is something in between: what Sarah Polley is doing in &lt;em&gt;Stories We Tell&lt;/em&gt;. She is recreating records in an imaginative way, but sticking within the boundaries of their archival qualities – their format and form – to lend them a sense of authenticity. The records are visible. But their form and format is the site of performance. These are performed records. And there’s a sense of trickery here to make it fairly difficult to distinguish between the originals and the recreated ones. It’s not entirely convincing to a critical eye, but it’s convincing enough to be fairly disorienting to the viewer. The film actually opens with one such recreated shot, so Polley is definitely priming the viewer to believe the authenticity of her recreations. And though I haven&amp;rsquo;t done the math, the recreations make up a fairly significant portion of the film.&lt;/p&gt;
-
-&lt;p&gt;So, what is Polley doing here? Well, on a basic level she’s able to fill out the narrative more. She is exploring the space between that which is recorded that that which is unknown, or known but unrecorded. And using recreated &amp;ldquo;archival&amp;rdquo; records to explore these boundaries. The interviews for the film were clearly made first, and sometimes the recreated records support the content of the interview; they make the claims seem more convincing. There’s a moment where one of her brothers talks about their mother’s hand – the hand waving “no!” – and the recreated version matches it.&lt;/p&gt;
-
-&lt;div id=&#34;containerr&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/Polley-StoriesWeTell-Screenshot-8.39.jpg&#34; alt=&#34;Screenshot from Stories We Tell&#34; align=&#34;right&#34;&gt;
-    &lt;figcaption&gt;A screenshot from Stories We Tell depicting the infamous &#34;hand&#34; - one of the recreated family movie records in the film. The shot occurs at 8:39.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A lot of the recreated records convey moments of sadness that the more happy-go-lucky travel family reels don’t. But Polley does respect their content in a way that influences their blending. The recreated versions are not overly dramatic, and the actors generally act in similar ways to the originals: hamming for the camera, aware of its presence, kind of exposed in the harsh white light that was mounted on the top of those cameras. In this way, the originals and the recreated versions complement each other and blend together. They both influence the narrative. The originals are just as easy to read into the story. Looking at expressions and events in them that seem to support one perspective or another, so it’s not merely a matter of adding to the narrative so much as exploring beyond the limits of the records that have been left behind. You’ll notice as well that Polley has shot a lot of the modern scenes in Super 8 too. This is how she keys a smart viewer to the fact that something is going on. But they don’t have the same effect because their content doesn’t match their form. They are not performed in the same way.&lt;/p&gt;
-
-&lt;p&gt;I think that Polley’s approach is intended to support some of the larger themes of the film. Just as she reveals the trick near the end, the narration notes the aspect of memory as having “shifts and fictions in them, mostly unintended.” And while her fictions are intended, they are all part of the slippery, difficult, and ultimately impossible problem of knowing her mother. Of getting close to the source and trying to understand the relationship between memory and truth, but seeing the source slipping away so one can &amp;ldquo;never touch bottom&amp;rdquo; as Harry notes in the film at one point. Polley’s approach speaks to how we read archival records. How quick we are to make a story by looking at documents and photographs collected together. And how easily such a story can be re-read, re-remembered and re-interpreted. [One audience member commented that she’d seen this movie once before, but that the re-watching added different layers of interpretation onto the film, a fact which seemed to support this idea at a meta-level!].&lt;/p&gt;
-
-&lt;p&gt;Secondly, there is the question of ethics and objectivity. Sarah Polley’s father Michael gets the closest to the heart of the film – more so than her biological father Harry – by questioning Sarah’s motivations. And by noting that her act of editing the film therefore makes it a product of her own views, rather than the objective work that contains the “whole picture,” as she says, that she might imagine she is creating. While Harry believes there is a truth to be found if one constructs the film in the right way (which he&amp;rsquo;d view as conforming to his version of the events), Michael understands that the exercise is less about finding some ultimate truth about Diane and more about the family’s various experiences trying to find her, to grieve her, and to remember and witness her life.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I can’t recall all of the wonderful points raised during the discussion that followed the screening because I was still a bit nervous up there. But there were some excellent ideas expressed in addition to the ones already inserted. Emily Lonie noted that she had actually seen the film before in the context of a book club, and a lot of the club’s members felt the film was narcissistic on the part of Polley, which I thought was interesting. I didn’t really feel this at all since the story is not really self-serving or demanding of sympathy. Though one of Polley’s sisters alludes to this potential reading in an early part of the film by wondering aloud why anyone would care about their family.&lt;/p&gt;
-
-&lt;p&gt;Others were interested in exploring whether there really was an ethical breach present in the film’s reconstructions. To at least one person in the audience, they didn’t seem nearly as transgressive as it did to me. I think their perspective was that the recreations were more in line with typical dramatic representations, and therefore not attempting to deceive the viewer. I disagree, but I digress.&lt;/p&gt;
-
-&lt;p&gt;I questioned the audience about the boundary between documentary and drama as well, particularly where the film is marketed as a documentary but is not necessarily as objective in its approach as is typical of the genre. I feel that Polley is exercising something of an ethical obligation through the “reveal” at the end where she is sitting in conversation with an uncanny duplicate of her mother.&lt;/p&gt;
-
-&lt;div id=&#34;containerl&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/Polley-StoriesWeTell-Screenshot-1.28.05.jpg&#34; alt=&#34;Screenshot from Stories We Tell&#34; align=&#34;right&#34;&gt;
-    &lt;figcaption&gt;A screenshot from Stories We Tell depicting Polley speaking to an actor playing her mother. The shot occurs at 1:28:05.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;She certainly wasn’t obligated to inform the audience of her trickery, necessarily. But in doing so, it positions Polley as possibly atoning for the process of making it. Not only for the trickery, but also for the subjectivity  in its personal bias that Michael notes. The audience quite rightly noted the absence of Polley’s own voice from the film: she doesn’t reveal too much of herself or her own feelings in it and does not actively appear on camera. This absence mirrors the key absense of her mother from the film too. But where the mother haunts the film - either through the remaining archival records that document her life, or through her uncanny double - Sarah too haunts the film as its creator, commenting but never fully acknowledging her role in its making.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I was so glad for the great attendance and lively conversation that followed the screening. Thank you to everyone who came out!&lt;/p&gt;
-</description>
+      <description>At the recent ACA conference in Ottawa, I had the wonderful opportunity to host a screening of one of my favorite films - Sarah Polley&amp;rsquo;s 2012 documentary Stories We Tell. I&amp;rsquo;ve long been convinced that this film has a lot to say about archives. It’s a film fundamentally concerned with how we understand the past through the contradictions of memory and the opaque borders shared between memories and what has been recorded.</description>
     </item>
     
     <item>
@@ -144,40 +35,7 @@
       <pubDate>Tue, 09 May 2017 21:06:04 -0400</pubDate>
       
       <guid>http://www.granthurley.ca/blog/taking-collaboration-from-buzzword-to-action-a-take-on-the-aao-2017-conference/</guid>
-      <description>&lt;div id=&#34;containerr&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/aao-1.jpg&#34; alt=&#34;AAO conference plant disc&#34; align=&#34;right&#34;&gt;
-    &lt;figcaption&gt;A conference swag item was this coaster with embedded flower seeds. Quite a nice metaphor, no?&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Though I’ve been a volunteer for the &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario&lt;/a&gt; since late 2015, I finally had the chance to attend my first AAO conference last month at the &lt;a href=&#34;https://drive.google.com/file/d/0B9VtQlWTv9MDR0FuT1pYVzhvazg/view&#34; target=&#34;_blank&#34;&gt;Faculty of Information at the University of Toronto&lt;/a&gt;. I’d long heard that the AAO conference is one that is firmly devoted to archival practice, and this edition (the 14th since 2004!) only supported this notion. Most of the presentations I attended reflected on active projects or initiatives rather than working through the more arcane considerations of archival theory. For my part, I &lt;a href=&#34;https://drive.google.com/file/d/0B-BjI0FWqnSQNVdQcHR5dVZGZ0g2UzJ2RjZMTm82SkpheEZF/view&#34; target=&#34;_blank&#34;&gt;presented on Permafrost&lt;/a&gt;, a hosted digital preservation service I have been piloting with Lakehead University Library. Sara Janes, the University Archivist, was kind enough to attend and co-present on her experience with the pilot so far. The conference’s emphasis on field work over behind-the-desk theory has the advantage of making it more accessible, particularly to those not formally trained in the profession, but the downside is that it’s sometimes hard to link projects and initiatives back to the bigger concepts that inform them. Nevertheless, I think that there was an underlying ethos and set of ideas that connected many of the presentations, which I’m taking the chance to delve into a bit deeper in this space.&lt;/p&gt;
-
-&lt;p&gt;The conference theme was &amp;ldquo;Come Together: Meaningful Collaboration in a Connected World.&amp;rdquo; In my editorial for the &lt;a href=&#34;http://aao-archivists.ca/page-18317&#34; target=&#34;_blank&#34;&gt; Spring 2017 issue of Off the Record&lt;/a&gt;, I wrote that conferences such as this are a method of grounding the abstract idea of community in the real-life friendships and relationships that sustain that community. Though conferences are a fine way of exchanging information, their real value is the opportunity to meet and talk face to face. Seeing old friends and making new connections helps us invigorate our work and our sense of place and value in the archival community. Or they may just give us an occasion to compare problems, vent frustrations, gossip, and drink too much coffee. All have value. However, this idea presupposes that the community includes all those who should have a seat at the table (not to mention the ability to pay for the conference itself). What about individuals who are not yet part of the community and might not even know it exists? Or those that might be aware or interested, but do not feel enabled or are not funded to take part? Inquiries in this area formed a significant thread of the conference, I think. It was reflected in the title, of course; collaboration that is &amp;ldquo;meaningful&amp;rdquo; as opposed to obligatory or programmatic. “Collaborate” is often a buzzword deployed to make it seem like an organization is caring or connecting, but there may be no accountability for its realized impact. How can the archival community ensure collaborative efforts have actual positive effects? One key subject addressed by the conference was reconciliation with Indigenous peoples and knowledges in Canada, both as an archival community and within archival theory and practice. A second was the profession’s support for students. And there were several other presentations I had the chance to attend that also touched on similar themes of community-broadening.&lt;/p&gt;
-
-&lt;p&gt;They keynote was delivered by Michael Etherington, Cultural Program Manager at the &lt;a href=&#34;http://ncct.on.ca/&#34; target=&#34;_blank&#34;&gt;Native Canadian Centre of Toronto&lt;/a&gt; and a noted speaker. His talk was remarkably wide-ranging, touching on everything from international law and Indigeous governance to his personal experiences growing up in James Bay. His speaking method invited the audience into his own personal community: it was so engaging, intimate and conversational, it hardly felt like he was addressing a large room full of archivists. He challenged the audience to mature their relationships with Indigenous individuals and groups in their regions, including acquainting themselves with the treaties that cover the territory they live on, and to move beyond rote territorial acknowledgements and token Indigenous presence at events to more substantive involvement. He also addressed some of the awkwardness that comes with settler perceptions of Indigenous people, particularly despite good intentions. Obsessively struggling with terminology is one example. Rather than anxiously Googling &amp;ldquo;First Nations vs. Aboriginal vs. Indigenous???,&amp;rdquo; figuring out what the preference of the communities and/or individuals you wish to meet with is a good start. Or asking a living person wouldn’t hurt. Similarly, he mentioned how some overly cautious settlers worry that there&amp;rsquo;s some special protocol to speaking with an Indigenous person, when it&amp;rsquo;s only a shake of the hand, a friendly hello, and a willingness to listen and learn that&amp;rsquo;s necessary.&lt;/p&gt;
-
-&lt;p&gt;One of his closing comments related to the treaty covering his home community, &lt;a href=&#34;http://www.archives.gov.on.ca/en/explore/online/james_bay_treaty/treaty.aspx&#34; target=&#34;_blank&#34;&gt;James Bay Treaty no. 9&lt;/a&gt;. He related the emotional experience he had when seeing this treaty in person for the first time. For the archivists he interacted with, he noted, it seemed like any other piece of paper, but to him and many members of his community, it is a fundamental document tracing their history and their rights. We hear about how important documents such as this are in the abstract all the time, but for me, hearing about this crucial kind of relationship between a document and the people whose rights it impacts was very affecting.&lt;/p&gt;
-
-&lt;p&gt;Just after the keynote, Sean Smith of the Archives of Ontario and Iona McCraith and Lisa Snider of the Archives Association of Ontario gave presentations on their own Indigenous-related outreach. Both have made efforts in this domain over the last year, with the AO working towards its Indigenous Relations Working Group and the AAO pulling together resources regarding reconciliation. Both noted, however, that substantive work is yet to come. For the AAO, one of the key issues is actually connecting with Indigenous community recordkeepers who could benefit from the services that the AAO provides and improving &lt;a href=&#34;https://www.archeion.ca/&#34; target=&#34;_blank&#34;&gt;Archeion&amp;rsquo;s&lt;/a&gt; description of Indigenous-related materials. For the AO, it means connecting more clearly with the communities that have an interest in records, seeking advice and feedback, and improving inclusivity. I spoke with Sean after his presentation on a question that&amp;rsquo;s been bothering me in this area: how much labour on behalf of an institution&amp;rsquo;s &amp;ldquo;engagement&amp;rdquo; strategy should be borne by the community the institution wants to engage with? It hardly seems appropriate to ask members of an Indigenous community, for example, to work with an institution without providing adequate resources to that community. Community members are busy enough supporting their own needs; an institution that says, &amp;ldquo;here come engage with us&amp;rdquo; has to provide resources to enable participants to do so.&lt;/p&gt;
-
-&lt;div id=&#34;containerl&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/aao-2.jpg&#34; alt=&#34;Raymond Frogner&#34; align=&#34;left&#34;&gt;
-    &lt;figcaption&gt;Raymond Frogner (right) delivering his plenary talk, moderated by John Roberts (left).&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Finally, Raymond Frogner, Director of Archives at the &lt;a href=&#34;http://umanitoba.ca/nctr/&#34; target=&#34;_blank&#34;&gt;National Centre for Truth and Reconciliation&lt;/a&gt;, gave an incredible plenary talk titled &amp;ldquo;Red Jenkinson: The Indigenous Influence on Modern Archival Practice.” His talk traced the role that &lt;a href=&#34;https://en.wikipedia.org/wiki/George_Hunt_(ethnologist)&#34; target=&#34;_blank&#34;&gt;George Hunt&lt;/a&gt;, a Tlingit consultant to the anthropologist Franz Boas and accomplish linguist and ethnologist himself, played in influencing postmodern archival theory. It was a fascinating talk, and one whose subtleties can&amp;rsquo;t be really borne out here with my scratchy notes from it, but I hope he intends to publish it. It also speaks to a larger question of making archival theory more hospitable to Indigenous knowledge practices, which may actually confirm or provide stronger support for existing strands of archival theory, just as it may also challenge its colonial origins, assumptions and myopia.&lt;/p&gt;
-
-&lt;p&gt;The position of students interested in joining the profession was a second thread that relates to the theme of making our community more hospitable. Of course, all professionals were students of some kind at one time or another. However, the transition from student life to professional life is not always smooth, as students navigate contract work, sometimes for years, and may need to develop skills that aren’t covered by existing programs of study. (A common complaint I hear about is a lack of digital-oriented skills). The AAO has been working over the past year and a bit on improving student outreach, and I&amp;rsquo;ve had the pleasure of being part of this initiative. One of our accomplishments was pushing the student membership category into two years post-graduation to help mitigate loss of members due to financial precarity.&lt;/p&gt;
-
-&lt;p&gt;It was fantastic to see a number of student sessions at the conference. One I was able to attend featured a panel of students from the &lt;a href=&#34;https://www.facebook.com/ACAUofT/&#34; target=&#34;_blank&#34;&gt;ACA U of T student chapter&lt;/a&gt; and the &lt;a href=&#34;https://amiaatuoft.wordpress.com/&#34; target=&#34;_blank&#34;&gt; Association of Moving Images Archivists Toronto&lt;/a&gt; and &lt;a href=&#34;https://www.facebook.com/RyersonAMIA/&#34; target=&#34;_blank&#34;&gt;Ryerson&lt;/a&gt; student chapters. The panel reviewed the ways in which student associations have been working together to share resources and improve training among themselves. Their challenges and concerns echoed a lot of the same ones we experience on the AAO board, such as how to model collaborative governance, how to find sources of stable funding, and how to attract (already overworked and busy) members. It was impressive to hear them describe juggling these issues and working through them as a group. It was also interesting to hear that student groups are finding that to attract members, they&amp;rsquo;re prioritizing professional development opportunities through workshops over social events like pub nights, which used to be the norm for these kinds of groups. It points to a potentially worrying trend where underfunded or unfunded student groups are trying to fill in gaps that professional programs should be covering. There&amp;rsquo;s also an opportunity for the AAO to fill in this gap - though this is not what the Association is really designed to do at this point. However, it is important that we continue to figure out ways in which the transition from student to professional can be supported.&lt;/p&gt;
-
-&lt;p&gt;Without burdening the post too much further, there were some other excellent presentations that tied into similar themes. Karen Milligan and Tracey Krause of the Hamilton Public Library presented on a new oral history initiative that is intended to broaden its reach beyond traditional participants. Danielle Robichaud and Krista McCracken &lt;a href=&#34;https://drive.google.com/file/d/0B-BjI0FWqnSQcXBQNVE4VkV2SG8/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;gave a great talk&lt;/a&gt; on using Wikipedia for archival activism by writing pieces on underrepresented people or communities and by promoting archival collections - both ways in which archives can see their mark made beyond the institution and hopefully make an impact in non-traditional ways.&lt;/p&gt;
-
-&lt;p&gt;Many thanks to the AAO conference organizers (who were primarily made up of members of the Toronto Area Archives Group chapter) for putting on a fantastic event, and to the conference presenters for thoughtfully engaging with the theme. There were so many examples of grounding collaboration in thoughtful action - exactly what the AAO conference should be doing!&lt;/p&gt;
-</description>
+      <description>A conference swag item was this coaster with embedded flower seeds. Quite a nice metaphor, no?   Though I’ve been a volunteer for the Archives Association of Ontario since late 2015, I finally had the chance to attend my first AAO conference last month at the Faculty of Information at the University of Toronto. I’d long heard that the AAO conference is one that is firmly devoted to archival practice, and this edition (the 14th since 2004!</description>
     </item>
     
     <item>
@@ -186,27 +44,7 @@
       <pubDate>Sun, 09 Apr 2017 16:02:31 -0500</pubDate>
       
       <guid>http://www.granthurley.ca/blog/hello-world--situating-myself/</guid>
-      <description>&lt;p&gt;In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study. I&amp;rsquo;m interested in lots of things relating to these fields, which you can find links to &lt;a href=&#34;http://www.granthurley.ca/research/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I recently had the pleasure of reading Erin Wunker&amp;rsquo;s &lt;em&gt;Notes from a Feminist Killjoy: Essays on Everyday Life&lt;/em&gt; (BookThug, 2016). In her introduction, Wunker describes the importance of accounting for one&amp;rsquo;s situated knowlege, an intention cited from scholar Donna Haraway. &amp;ldquo;Situating yourself enacts the deliberate practice of locating your own identity and experiences as coming from somewhere and being mediated by certain things such as your race, gender and class,&amp;rdquo; Wunker writes, &amp;ldquo;Laying these things out for yourself locates your way of being in the world - your knowledge - within larger systems of knowing&amp;rdquo; (p. 30). I&amp;rsquo;ve heard this sentiment in various forms through my education, but what underscored Wunker&amp;rsquo;s point for me was the reminder that situating yourself is intended to reveal, and account for, one&amp;rsquo;s myopias: the gaps in personal knowledge and experience that result in blind spots relating to other knowledges and experiences. In doing so, you are &amp;ldquo;opening yourself to the truth that you don&amp;rsquo;t have access to every experience&amp;rdquo; (p. 30). I love to think about the big questions of an archivally-minded life, many of which relate to the keeping of memory and therefore the rights and powers that surround that memory. Thinking and writing on these subjects is necessarily the subject of certain kinds of knowledge and experience, and it&amp;rsquo;s important for us archivists to remember that our views and approaches to archives may not be applicable to all situations, or even, understandable to people and communities that exist outside our own.&lt;/p&gt;
-
-&lt;p&gt;So, following Wunker&amp;rsquo;s example, here&amp;rsquo;s some information that will hopefully help situate me. I&amp;rsquo;m a cis-gendered, able-bodied man. I am white. English is my first language and my French is fair-to-middling. I was raised by middle-class parents, one of whom died when I was a teenager. I was born in New Brunswick, and lived there until I was 22, when I moved to Vancouver to pursue a MA in English. I lived there for 5 years. After the MA I enrolled in the Dual Master of Archival Studies and Master of Library and Information Studies degree program and graduated in 2015. I then moved to Toronto to be with my partner, and have lived in the city for nearly two years.&lt;/p&gt;
-
-&lt;div id=&#34;containerr&#34;&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;http://www.granthurley.ca/img/ccarchives.jpg&#34; alt=&#34;Charlotte County Archives&#34; align=&#34;right&#34;&gt;
-    &lt;figcaption&gt;The Charlotte County Archives, where it all started. The fact that it is in a prison is incidental and not a metaphor for my career, hopefully (author photo).&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;I got into the world of archives through my very first real summer job at the Charlotte County Archives in Saint Andrews, New Brunswick. I was incredibly lucky to have happened upon this experience so early in my life. My high school history teacher was involved in the archives and had suggested I apply for a summer student position; I did and ended up working there for four summers. During that time, archivists Charlotte McAdam and Janice Fairney served as early mentors. I am deeply thankful for Charlotte&amp;rsquo;s early encouragement to think about the archival field as a career. The Charlotte County Archives remains the archetypal archival experience for me, though the institution itself is incredibly unique. The Archives was housed in a decomissioned nineteenth century prison made of huge slabs of grey granite. A set of original cells were made available for viewing to tourists. I learned how to do basic processing and description, helped visitors with research and reference, gave tours of the jail, and organized funraising lectures and a sleepover for local kids. One summer I even led a group of ghost hunters around the building in search of spirits (this might have to become a future blog post all to itself). It was all immensely fun.&lt;/p&gt;
-
-&lt;p&gt;So, while I learned an enormous amount at this archives, and I&amp;rsquo;ve since worked in many archives and libraries as part of various practicum, co-op and contract placements during and after my education, my first experience in archives has become determinate of my understanding and approaches to archival organizations and practices since then. It&amp;rsquo;s become my classic use case (minus the ghosts), and one that I think of often in relation to some question or solution. So, both knowledge and experience, and a source of myopia as well.&lt;/p&gt;
-
-&lt;p&gt;Finally, a big gap in my knowledge and experience is in technology. Even though I&amp;rsquo;ve spent most of my life playing with computers in various ways, I still feel like an outsider in the tech world because my education and learning in this area has always been ad hoc. I remain intimidated by its insider languages (both the words used to describe the work and the languages used to make it work). Part of this separation has been intentional. I don&amp;rsquo;t want to be a full-blown technologist necessarily - it&amp;rsquo;s another kind of myopia, I think, that is sometimes divorced from the ways in which technologies can be alienating, or their uses deterministic. I&amp;rsquo;m interested in the details of technologies that make be a better archivist, and more capable of preserving digital archives. I see my role as a translator, educator and collaborator in hopes of serving archivists and archives better.&lt;/p&gt;
-
-&lt;p&gt;I hope this little foray into self-situation (if I can call it that!) has been a good one. It&amp;rsquo;s by no means exhaustive, and never will be. It&amp;rsquo;s hard to know how much or little detail to include, or how relevant it could be to a reader, but I do think the exercise will help inform my thinking in posts here in the future.&lt;/p&gt;
-</description>
+      <description>In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study.</description>
     </item>
     
     <item>
@@ -215,97 +53,12 @@
       <pubDate>Mon, 13 Mar 2017 15:52:50 -0400</pubDate>
       
       <guid>http://www.granthurley.ca/resume/</guid>
-      <description>
-
-&lt;h3 id=&#34;current-roles&#34;&gt;Current Roles&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Digital Preservation Librarian, &lt;a href=&#34;http://scholarsportal.info&#34; target=&#34;_blank&#34;&gt;Scholars Portal&lt;/a&gt;, Ontario Council of University Libraries/University of Toronto&lt;/li&gt;
-&lt;li&gt;Director Without Portfolio 2 &amp;amp; Editor, &lt;em&gt;Off the Record&lt;/em&gt;, &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ex Officio Director and Alcuin Book Design Awards Catalogue Project Manager, &lt;a href=&#34;http://www.alcuinsociety.com&#34; target=&#34;_blank&#34;&gt;The Alcuin Society&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
-
-&lt;p&gt;2012 - 2015 &amp;mdash; Dual Master of Archival Studies and Master of Library and Information Studies. University of British Columbia. Vancouver, British Columbia.&lt;/p&gt;
-
-&lt;p&gt;2010 - 2012 &amp;mdash; Master of Arts in English. University of British Columbia. Vancouver, British Columbia.&lt;/p&gt;
-
-&lt;p&gt;2006 - 2010 &amp;mdash; Bachelor of Arts in English (First Class Honours). Mount Allison University. Sackville, New Brunswick.&lt;/p&gt;
-
-&lt;h3 id=&#34;past-work&#34;&gt;Past Work&lt;/h3&gt;
-
-&lt;p&gt;August 2015 - July 2016 &amp;mdash; Records Analyst and Archivist for The College of Physicians and Surgeons of Ontario&lt;/p&gt;
-
-&lt;p&gt;December 2014 &amp;mdash; Student Intern at the City of Toronto Archives&lt;/p&gt;
-
-&lt;p&gt;May - August 2014 &amp;mdash; Co-op Student, Records Management and Library, Teck Resources Ltd.&lt;/p&gt;
-
-&lt;p&gt;January - April 2014 &amp;mdash; Special Collections Project Assistant, University of British Columbia Okanagan Library&lt;/p&gt;
-
-&lt;p&gt;May - August 2013 &amp;mdash; Student Librarian, BGC Engineering&lt;/p&gt;
-
-&lt;p&gt;June 2013 - December 2017 &amp;mdash; Researcher, InterPARES Trust&lt;/p&gt;
-
-&lt;p&gt;May 2012 - December 2014 &amp;mdash; Curatorial and Informatics Assistant, Beaty Biodiversity Museum, University of British Columbia&lt;/p&gt;
-
-&lt;h3 id=&#34;current-committee-roles&#34;&gt;Current Committee Roles&lt;/h3&gt;
-
-&lt;p&gt;Canadian Association of Research Libraries (CARL), Digital Preservation Working Group (2017-present)&lt;br /&gt;
-- Lead, Survey Subgroup&lt;/p&gt;
-
-&lt;p&gt;Canadian General Standards Board, Committee on Electronics Records and Image Management (2017-Present)&lt;br /&gt;
-- Association of Canadian Archivists Representative (voting member)&lt;/p&gt;
-
-&lt;p&gt;Canadian Research Knowledge Network (CRKN) Trusted Digital Repository Task Group (2017-Present)&lt;br /&gt;
-- Co-lead, Service Model and Certification Subgroup&lt;/p&gt;
-
-&lt;h3 id=&#34;past-volunteer-and-committee-roles&#34;&gt;Past Volunteer and Committee Roles&lt;/h3&gt;
-
-&lt;p&gt;2014-2016 &amp;mdash; Blog Editor, BookTraces project, University of Virginia&lt;br /&gt;
-2014-2015 &amp;mdash; ARMA Representative, ACA UBC Student Chapter&lt;br /&gt;
-2013 &amp;mdash; Treasurer, ACA UBC Student Chapter&lt;br /&gt;
-2012-2013 &amp;mdash; First Year Representative, ACA UBC Student Chapter&lt;br /&gt;
-2012 &amp;mdash; Conference Co-Chair, Endnotes Graduate Conference in English, University of British Columbia&lt;br /&gt;
-2011-12 &amp;mdash; ACCUTE Representative, UBC Department of English Graduate Caucus&lt;br /&gt;
-2009-10 &amp;mdash; Vice President, Board of Directors, CHMA Community Radio&lt;br /&gt;
-2009-10 &amp;mdash; President, English Society, Mount Allison University&lt;br /&gt;
-2009 &amp;mdash; Student Representative, Post-Doctoral Fellow Search Committee, Canadian Studies. Mount Allison University.&lt;br /&gt;
-2008-10 &amp;mdash; Editor, 7 Mondays, Mount Allison University&lt;/p&gt;
-
-&lt;h3 id=&#34;teaching-workshops&#34;&gt;Teaching &amp;amp; Workshops&lt;/h3&gt;
-
-&lt;p&gt;Code4Lib Toronto meetup: &amp;ldquo;Tools for digital preservation,&amp;rdquo; March 28, 2018.&lt;/p&gt;
-
-&lt;p&gt;University of Toronto Inforum iSkills workshop: &amp;ldquo;Bring out yer SIPs: An introduction to digital preservation with Archivematica,&amp;rdquo; 9 February 2018.&lt;/p&gt;
-
-&lt;p&gt;Teaching Assistant, ENGL 110: Approaches to Literature. University of British Columbia. Fall 2010, Winter 2011, Fall 2011, Winter 2012.&lt;/p&gt;
-
-&lt;p&gt;Course Intern, ENGL 1801: Introduction to Prose Fiction. Mount Allison University. Fall 2009.&lt;/p&gt;
-
-&lt;h3 id=&#34;awards-and-grants&#34;&gt;Awards and Grants&lt;/h3&gt;
-
-&lt;p&gt;2015 &amp;mdash; Association of Canadian Archivists Gordon Dodds Prize &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;media&#34;onclick=&#34;window.open(&#39;http://slais.ubc.ca/grant-hurley-wins-the-gordon-dodds-award/&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;br /&gt;
-2015 &amp;mdash; Arts Co-op Student of the Year &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;media&#34;onclick=&#34;window.open(&#39;http://artscoop.ubc.ca/2015/03/16/grant-hurley/&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;br /&gt;
-2014 &amp;mdash; Student to Association of Canadian Archivists conference travel award&lt;br /&gt;
-2013 &amp;mdash; ARMA International Education Fund Rita Holt Scholarship&lt;br /&gt;
-2013 &amp;mdash; O’Brien Foundation Fellowship &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;media&#34;onclick=&#34;window.open(&#39;http://www.obrienfoundation.ca/en/o-brien-fellows/where-are-they-now/270-grant-hurley-2013&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;br /&gt;
-2012 &amp;mdash; CLA/ACB Dafoe Scholarship, Canadian Library Association&lt;br /&gt;
-2010 &amp;mdash; SSHRC Joseph-Armand Bombardier Canada Graduate Scholarship&lt;br /&gt;
-2010 &amp;mdash; Allison Watson Beveridge Prize, Mount Allison University&lt;br /&gt;
-2009 &amp;mdash; Crake Summer Undergraduate Research Fellowship, Mount Allison University&lt;/p&gt;
-
-&lt;script&gt;
-  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
-  ga(&#39;send&#39;, &#39;pageview&#39;);
-
-&lt;/script&gt;
-</description>
+      <description>Current Role  Digital Preservation Librarian, Scholars Portal, Ontario Council of University Libraries/University of Toronto  Current Committee &amp;amp; Service Roles Canadian Association of Research Libraries (CARL), Digital Preservation Working Group (2017-present)
+- Lead, Survey Subgroup
+Canadian General Standards Board, Committee on Electronic Records and Image Management (2017-Present)
+- Association of Canadian Archivists Representative (voting member)
+Canadian Research Knowledge Network (CRKN) Trusted Digital Repository Task Group (2017-Present)
+- Co-lead, Service Model and Certification Subgroup</description>
     </item>
     
     <item>
@@ -314,105 +67,8 @@
       <pubDate>Thu, 09 Feb 2017 08:48:30 -0500</pubDate>
       
       <guid>http://www.granthurley.ca/research/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Research Interests:&lt;/strong&gt; I am interested in a bunch of things relating to archives and libraries, including: making digital preservation accessible and actionable; digital preservation standards and certification; open government, open data, and citizen engagement; and subjects relating to archival theory and practice more broadly, such as community archives and decolonization.&lt;/p&gt;
-
-&lt;h3 id=&#34;peer-reviewed-articles&#34;&gt;Peer-Reviewed Articles&lt;/h3&gt;
-
-&lt;p&gt;Hurley, G. (2017). Your comments here: Contextualizing technologies, seeking records and supporting transparency for citizen engagement. &lt;em&gt;Tidsskriftet Arkiv&lt;/em&gt;, 8(1), 1-25. doi: 10.7577/ta.1956 &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;https://journals.hioa.no/index.php/arkiv/article/view/1956&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2016). Community archives, community clouds: Enabling digital preservation for small archives. &lt;em&gt;Archivaria&lt;/em&gt;, 82, 129-150. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Closed Access&#34;onclick=&#34;window.open(&#39;http://archivaria.ca/index.php/archivaria/article/view/13561&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2015). Student publications at UBC&amp;rsquo;s School of Library, Archival and Information Studies: An anecdotal bibliography. &lt;em&gt;See Also&lt;/em&gt;, 1(1), 1-9. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;http://ojs.library.ubc.ca/index.php/seealso/article/view/186339&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Szabo, I., Hurley, G., Cavaghan, S., &amp;amp; Irwin, D. E. (2014). A call for the preservation of images, recordings, and other data in association with avian genetic samples, and the introduction of a solution: OMBIRDS. &lt;em&gt;The Auk&lt;/em&gt;, 131(3), 321-326. doi: 10.1642/AUK-13-237.1 &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Closed Access&#34;onclick=&#34;window.open(&#39;http://www.bioone.org/doi/abs/10.1642/AUK-13-237.1&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;book-chapters&#34;&gt;Book Chapters&lt;/h3&gt;
-
-&lt;p&gt;Hurley, G. (forthcoming). Digital bibliodiversity at Scholars Portal: Bridging standards and practices for e-books preservation. In J. Myntti &amp;amp; J. Zoom (Eds.) &lt;em&gt;Digital preservation in libraries: Preparing for a sustainable future&lt;/em&gt;. Chicago: Association for Library Collections &amp;amp; Technical Services, American Library Association.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2015). Archival reappraisal. In L. Duranti &amp;amp; P. Franks (Eds.), &lt;em&gt;Encyclopedia of Archival Science&lt;/em&gt; (pp. 80-82). Lanham, MD: Rowman &amp;amp; Littlefield. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Google Books&#34;onclick=&#34;window.open(&#39;https://books.google.ca/books?id=ryT-CQAAQBAJ&amp;lpg=PP1&amp;pg=PA80#v=onepage&amp;q&amp;f=false&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2011). Money is time: Case studies in small Canadian regional archives. In K. Garay &amp;amp; C. Verduyn (Eds.), &lt;em&gt;Archival narratives for Canada: Re-telling stories in a changing landscape&lt;/em&gt; (pp. 98-113). Halifax: Fernwood. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Publisher&#34;onclick=&#34;window.open(&#39;https://fernwoodpublishing.ca/book/archival-narratives-for-canada&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;conference-proceedings&#34;&gt;Conference Proceedings&lt;/h3&gt;
-
-&lt;p&gt;McLelland, R., Hackett, Y., Hurley, G., &amp;amp; Collins, D. (2014). Agreements between cloud service providers and their clients: A review of contract terms. Proceedings from 2nd Annual Conference of the International Council on Archives. 11th-15th October, 2014. Girona, Spain. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;http://www.girona.cat/web/ica2014/ponents/textos/id210.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;reports&#34;&gt;Reports&lt;/h3&gt;
-
-&lt;p&gt;Hurley, G., Léveillé V., &amp;amp; McDonald, J. (2016). Managing records of citizen engagement initiatives: A primer. Vancouver, BC: InterPARES Trust. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;https://interparestrust.org/assets/public/dissemination/NA08_20161001_ManagingRecordsCitizenEngagement_Primer_Final.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;McLelland, R., Hurley, G., &amp;amp; Collins, D. (2016). Contract terms with cloud service providers. Vancouver, BC: InterPARES Trust. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;https://interparestrust.org/assets/public/dissemination/NA10_20160130_ContractTerms_InternationalPlenary3_FinalReport_Final.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;theses&#34;&gt;Theses&lt;/h3&gt;
-
-&lt;p&gt;Hurley, G. (2012). The lyric west: Reading the Vancouver Poetry Society, 1916-1974. (Unpublished master of arts dissertation). University of British Columbia, Vancouver, British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0072770&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2010). Coming of age: Canadian children’s literature and national identities, 1900-1945 (Unpublished bachelor of arts dissertation). Mount Allison University, Sackville, New Brunswick. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Open Access&#34;onclick=&#34;window.open(&#39;/pdf/Hurley-ComingOfAge.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;conference-presentations-posters&#34;&gt;Conference Presentations &amp;amp; Posters&lt;/h3&gt;
-
-&lt;p&gt;Hurley, G. &amp;amp; Janes, S. (2017). Collaborative Digital Preservation in the Cloud: Phase One of the Permafrost Project. Come Together: Meaningful Collaboration in a Connected World. Archives Association of Ontario 2017 Conference. 26-28 April 2017. Toronto, Ontario. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Slides&#34;onclick=&#34;window.open(&#39;https://drive.google.com/file/d/0B-BjI0FWqnSQNVdQcHR5dVZGZ0g2UzJ2RjZMTm82SkpheEZF/view&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Davis, K. &amp;amp; Hurley, G. (2017). eBooks preservation at Scholars Portal. eBooks and the Academic Library Market: The Charlotte Initiative Open Conference. 9-10 March, 2017. Charlotte, North Carolina. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Slides&#34;onclick=&#34;window.open(&#39;http://charlotteinitiative.uncc.edu/sites/default/files/users/2477/presentations/davis-hurley-charlotteslides.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Leahey, A. &amp;amp; Hurley, G. (2017). Developing integrated workflows for data curation and preservation in libraries. 12th International Digital Curation Conference. 20-23 February, 2017. Edinburgh, Scotland. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Poster&#34;onclick=&#34;window.open(&#39;http://www.dcc.ac.uk/sites/default/files/documents/IDCC17~/41_Developing_Integrated_Workflows.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2016). Digital participation wanted: Seeking records and supporting transparency for technology-driven citizen engagement. InterPARES Trust International Symposium. 9 December, 2016. Victoria University of Wellington, Wellington, New Zealand.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2016). Contextualizing Technologies for Citizen Engagement: Seeking Records and Supporting Transparency. Trust and Transparency in E-Government International Conference. 26 October, 2016. Høgskolen i Oslo og Akershus, Oslo, Norway.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2016). The long-term preservation of digital records and information. 7th Annual Information Management Session, Federation of Medical Regulatory Authorities of Canada. 11 June, 2016. Banff, Alberta.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2013). Determining a signature B.C. wine grape. UBC iSchool Visual Analytics Class Poster Session. 26 November, 2013. University of British Columbia, Vancouver, British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Poster&#34; onclick=&#34;window.open(&#39;/pdf/Hurley-BCWineGrape.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2013). Reconciling the archive: Library and Archives Canada versus the Truth and Reconciliation Commission. Endnotes Graduate Conference in English. 11-12 May, 2013. University of British Columbia, Vancouver, British Columbia.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2011). Seth and Canadian archival narrative. Association of Canadian College and University Teachers in English Conference. 28-31 May, 2011. Congress of Social Sciences and Humanities, Fredericton, New Brunswick.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2010). ‘Work at Home&amp;rsquo;: Gender and Nation in Canadian children’s fiction, 1830-1900. Second Annual Latin American and Latino/a Studies Conference. 12 April, 2010. Bowling Green State University, Bowling Green, Ohio.&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2009). Money is time: Case studies in regional archives. Third Biennial Archives in Canada Conference: Archives and the Canadian Narrative. 10-12 June, 2009. Mount Allison University, Sackville, New Brunswick.&lt;/p&gt;
-
-&lt;h3 id=&#34;talks-lectures-workshops&#34;&gt;Talks, Lectures &amp;amp; Workshops&lt;/h3&gt;
-
-&lt;p&gt;Code4Lib Toronto meetup: &amp;ldquo;Tools for digital preservation,&amp;rdquo; March 28, 2018. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Slides&#34;onclick=&#34;window.open(&#39;/pdf/Hurley-Code4LibToronto.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;University of Toronto Inforum iSkills workshop: &amp;ldquo;Bring out yer SIPs: An introduction to digital preservation with Archivematica,&amp;rdquo; 9 February 2018.&lt;/p&gt;
-
-&lt;p&gt;Digital Preservation Panel participant. Association of Canadian Archivists, University of Toronto Student Chapter. Toronto, Ontario. 2 November, 2017.&lt;/p&gt;
-
-&lt;p&gt;Commentary and discussion moderation for special screening of Sarah Polley&amp;rsquo;s &lt;em&gt;Stories We Tell&lt;/em&gt;. Association of Canadian Archivists Conference 2017: Archives, Disrupted. Mayfair Theatre, Ottawa, Ontario. 8 June, 2017.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Mapping generic user workflows for digital preservation: How special is your snowflake?&amp;rdquo; Lightning talk at The Archives and Technology Unconference (TAATU) 2017. City of Ottawa Archives, Ottawa, Ontario. 7 June, 2017. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Slides&#34;onclick=&#34;window.open(&#39;/pdf/Hurley-TAATU-Talk2017.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Preserving Digital Things: Projects, Plans and Debates in 2017.&amp;rdquo; For HIST 4851: Introduction to Archival Science, Lakehead University. Thunder Bay, Ontario. 31 March, 2017.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Digital Preservation 2067: Keeping Our Digital Memory from Here on Out.&amp;rdquo; Northwestern Ontario Archivists&amp;rsquo; Association. Thunder Bay, Ontario. 30 March, 2017.&lt;/p&gt;
-
-&lt;p&gt;Professional Panel on Digital Archives participant. Association of Canadian Archivists, University of Toronto Student Chapter. Toronto, Ontario. 24 January, 2017.&lt;/p&gt;
-
-&lt;h3 id=&#34;exhibitions-history-projects&#34;&gt;Exhibitions &amp;amp; History Projects&lt;/h3&gt;
-
-&lt;p&gt;150th Anniversary of the College of Physicians and Surgeons of Ontario. 28-29 May, 2016 for Doors Open Toronto and online. The College of Physicians and Surgeons of Ontario, Toronto, Ontario. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Website&#34;onclick=&#34;window.open(&#39;http://www.cpso.on.ca/About-Us/A-Look-Back&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Settling the language: Dictionaries and language change, 1490 to today. 3 June - 15 August, 2015. Rare Books and Special Collections, University of British Columbia. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Catalogue&#34;onclick=&#34;window.open(&#39;http://rbsc-03feb2015.sites.olt.ubc.ca/files/2015/06/Catalogue.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;The first Roman Catholic chuch and cemetery, 1825-1859. St. Andrews, New Brunswick: Church of Saint Andrew, 2010. &lt;input class=&#34;MyButton&#34; type=&#34;button&#34; value=&#34;Brochure&#34; onclick=&#34;window.open(&#39;/pdf/Hurley-FirstRomanCatholicCemetery.pdf&#39;, &#39;_blank&#39;)&#34;/&gt;&lt;/p&gt;
-
-&lt;script&gt;
-  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
-  ga(&#39;send&#39;, &#39;pageview&#39;);
-
-&lt;/script&gt;
-</description>
+      <description>Research Interests: I am interested in a bunch of things relating to archives and libraries, including: making digital preservation accessible and actionable; digital preservation standards and certification; open government, open data, and citizen engagement; and subjects relating to archival theory and practice more broadly, such as community archives and decolonization.
+Peer-Reviewed Articles Hurley, G. (2017). Your comments here: Contextualizing technologies, seeking records and supporting transparency for citizen engagement. Tidsskriftet Arkiv, 8(1), 1-25.</description>
     </item>
     
     <item>
@@ -421,95 +77,7 @@
       <pubDate>Wed, 08 Feb 2017 16:16:04 -0500</pubDate>
       
       <guid>http://www.granthurley.ca/about/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://www.granthurley.ca/img/hurley2.jpg&#34; class=&#34;me&#34; alt=&#34;Grant Hurley&#34; align=&#34;right&#34;;&gt; Hello. I am an archivist and librarian. I currently work as the Digital Preservation Librarian for Scholars Portal, a service of the Ontario Council of University Libraries. OCUL is a consortium of academic libraries in Ontario. In this role, I am responsible for supporting the preservation of shared licenced content content such as ejournals and books and helping our members preserve their own digital assets. I oversee developing and maintaing services and projects, research issues and questions, keep on top of digital preservation happenings, design and implement workflows, and consult on licencing issues. I also serve as Director without Portfolio and &lt;em&gt;Off the Record&lt;/em&gt; Editor with the &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario&lt;/a&gt;, as an Ex Officio Director and Book Design Awards Catalogue Project Manager for &lt;a href=&#34;http://www.alcuinsociety.com&#34; target=&#34;_blank&#34;&gt;The Alcuin Society&lt;/a&gt;, and as a researcher with the &lt;a href=&#34;http://www.interparestrust.org&#34; target=&#34;_blank&#34;&gt;InterPARES Trust&lt;/a&gt; project.&lt;/p&gt;
-
-&lt;p&gt;I started my career as a summer archives assistant at the &lt;a href=&#34;http://ccarchives.ca&#34; target=&#34;_blank&#34;&gt;Charlotte County Archives&lt;/a&gt; in my hometown of St. Andrews, New Brunswick. I was 16 and it was my first real summer job - and it turns out, led to my career! I returned to the Archives for three summers after that, and in that time, fell in love with the exciting and dynamic work that happens in archives on a daily basis. After pursuing a research interest in Canadian literature through a BA and MA, I completed the Dual Master of Archival Studies and Master of Library and Information Studies program at the University of British Columbia in 2015.&lt;/p&gt;
-
-&lt;p&gt;Outside of my work, I love to cook up big meals, shake up cocktails, collect Canadian music of the 1960s and 70s, go on hikes, and read thick and thin books. I&amp;rsquo;ve been slowly working through WSET certification levels in wine knowledge, so hit me with your wine questions in addition to your archival ones.&lt;/p&gt;
-
-&lt;h2 id=&#34;articles-on-my-work&#34;&gt;Articles on my Work&lt;/h2&gt;
-
-&lt;p&gt;&amp;ldquo;Will Anybody Care?: A Small Press Author Contemplates Archiving in the Digital Age&amp;rdquo;&lt;br /&gt;
-2017 article by Mark Sampson in &lt;em&gt;Canadian Notes and Queries&lt;/em&gt; no. 100 featuring myself, Jess Whyte and Natalya Rattan talking about digital archives work.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.gallery.ca/magazine/exhibitions/ngc/the-alcuin-awards-celebrating-canadian-design-through-beautiful-books&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;The Alcuin Awards: Celebrating Canadian Design Through Beautiful Books&amp;rdquo;&lt;/a&gt; 2017 article on the Alcuin Society&amp;rsquo;s 2016 awards and my work as Catalogue Project Manager.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www1.toronto.ca/City%20Of%20Toronto/City%20Clerks/Toronto%20Archives/PDFs/Archives%20annual%20report%202014.pdf&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Grant Hurley and the Kent Family fonds&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
-2015 article by yours truly on my work experience at the City of Toronto Archives for their 2014 Annual Report.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://artscoop.ubc.ca/2015/03/16/grant-hurley/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;2014 UBC iSchool (SLAIS) MAS Co-op Student of the Year&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
- 2014 article on my work experience at Teck Resources Ltd. and UBC Arts Co-op Award.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://okanaganlife.com/ubc0-celebrates-opening-of-special-collections-room/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;UBC Celebrates Opening of Special Collections Room&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
-2014 article describing my work setting up UBC Okanagan&amp;rsquo;s Special Collections.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.winesandvines.com/template.cfm?section=news&amp;content=126744&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Surprise: It&amp;rsquo;s Riesling and Syrah - Analysis points to British Columbia&amp;rsquo;s Candidates for Signature Grapes&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
-2014 article on my UBC &lt;a href=&#34;http://www.granthurley.ca/pdf/Hurley-BCWineGrape.pdf&#34;&gt;visual analytics class project&lt;/a&gt; to identify BC&amp;rsquo;s signature wine grapes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://beatymuseum.ubc.ca/2013/11/20/cowan-tetrapod-collection-databases-have-evolved/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Cowan Tetrapod Databases Have Evolved!&amp;rdquo;&lt;/a&gt;&lt;br /&gt;
-2012 article on my work with the Beaty Biodiversity Museum.&lt;/p&gt;
-
-&lt;h2 id=&#34;writing&#34;&gt;Writing&lt;/h2&gt;
-
-&lt;h3 id=&#34;archives-association-of-ontario&#34;&gt;Archives Association of Ontario&lt;/h3&gt;
-
-&lt;p&gt;I write regular items and an editorial for &lt;em&gt;Off the Record&lt;/em&gt;, the newsletter of the &lt;a href=&#34;http://www.aao-archivists.ca&#34; target=&#34;_blank&#34;&gt;Archives Association of Ontario:&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Current Issues (Members Only)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://aao-archivists.ca/page-18317&#34; target=&#34;_blank&#34;&gt;33.4 - Fall 2017&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://aao-archivists.ca/page-18317&#34; target=&#34;_blank&#34;&gt;33.3 - Summer 2017&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://aao-archivists.ca/page-18317&#34; target=&#34;_blank&#34;&gt;33.2 - Spring 2017&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo; &amp;amp; &amp;ldquo;Archives in Fiction: &lt;em&gt;Bear&lt;/em&gt; (1976)&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://aao-archivists.ca/page-18317&#34; target=&#34;_blank&#34;&gt;33.1 - Winter 2017&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo; &amp;amp; &amp;ldquo;Archives in Fiction: &lt;em&gt;Consolation&lt;/em&gt; (2006)&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Open Issues&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/QCAHlo&#34; target=&#34;_blank&#34;&gt;32.4 - Fall 2016 - Special Issue on Archives and Indigenous Issues&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/y1tgDV&#34; target=&#34;_blank&#34;&gt;32.3 - Summer 2016&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo; &amp;amp; &amp;ldquo;Food in the Archives: The Labatt Collection&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/vP8zTD&#34; target=&#34;_blank&#34;&gt;32.2 - Spring 2016&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo; &amp;amp; &amp;ldquo;Food in the Archives: Cooking with Hannah Glasse&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B9Z2lQjrgs_5ejhnVXdpb1hJZlE/view&#34; target=&#34;_blank&#34;&gt;32.1 - Winter 2016&lt;/a&gt; &amp;ldquo;Message from the Editor&amp;rdquo; &amp;amp; &amp;ldquo;Food in the Archives: Benson&amp;rsquo;s Strong Ale&amp;rdquo;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-alcuin-society&#34;&gt;The Alcuin Society&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I write regularly for the Alcuin Society on book arts, book design, and book collecting &lt;a href=&#34;http://alcuinsociety.com/author/ghurley/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Book Design Awards&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Preface to &lt;em&gt;The Alcuin Society Awards for Excellence in Book Design in Canada&lt;/em&gt; 2016 &lt;a href=&#34;http://alcuinsociety.com/content/wp-content/uploads/2014/04/AlcuinAwards-2016-Catalogue.pdf&#34; target=&#34;_blank&#34;&gt;catalogue.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Amphora&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hurley, G. (2014). Book Traces: Preserving bibliodiversity. &lt;em&gt;Amphora&lt;/em&gt; 168: 23-24.&lt;/p&gt;
-
-&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
-
-&lt;p&gt;Vancouver notables: Book artist Emma Lehto. January 6, 2014. &lt;em&gt;Sad Mag&lt;/em&gt; &lt;a href=&#34;http://archive.sadmag.ca/news/2014/01/vancouver-notables-destructive-book-artist-emma-lehto/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Dispatches: Kombucha 101 at Homesteader&amp;rsquo;s Emporium. November 16, 2013. &lt;em&gt;Sad Mag&lt;/em&gt; &lt;a href=&#34;http://archive.sadmag.ca/news/2013/11/dispatches-kombucha-101-at-homesteaders-emporium/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Vancouver notables: Rick Havlak. November 2, 2013. &lt;em&gt;Sad Mag&lt;/em&gt; &lt;a href=&#34;http://archive.sadmag.ca/news/2013/11/vancouver-notables-rick-havlak/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
-
-&lt;script&gt;
-  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-  ga(&#39;create&#39;, &#39;UA-97103484-1&#39;, &#39;auto&#39;);
-  ga(&#39;send&#39;, &#39;pageview&#39;);
-
-&lt;/script&gt;
-</description>
+      <description>Hello. I am an archivist and librarian. I work as the Digital Preservation Librarian for Scholars Portal, the information technology service for the Ontario Council of University Libraries. I am responsible for overseeing the preservation of shared licenced content content, such as journals and books, and developing, maintaining and supporting services to enable our members preserve their own unique digital assets. These include the Scholars Portal Trustworthy Digital Repository and the Permafrost digital preservation service, and developing new services in emerging areas to meet our members&amp;rsquo; needs.</description>
     </item>
     
   </channel>
