@@ -604,9 +604,10 @@ section.main .content .markdown h6 {
 }
 section.main .content .markdown code,
 section.main .content .markdown pre {
-  font-family: 'Ubuntu Mono', 'Menlo', monospace;
-  font-size: 1rem;
-  background-color: #f7f7f7;
+  font-family: 'Arial', 'Menlo', monospace;
+  font-size: 1.1rem;
+  background-color: #817ae3b0;
+  color: #FFFFFF;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
@@ -661,7 +662,8 @@ section.main .content .markdown ul {
 section.main .content .markdown li {
   font-size: 1.09rem;
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1.5rem;
 }
 section.main .content .markdown em {
   font-style: italic;
