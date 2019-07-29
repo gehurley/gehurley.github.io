@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Grant Hurley">
+<meta name="description" content="For the past few years, I&rsquo;ve been slowly poking away at a data project related to the history of book design in Canada. My goal was to produce a complete list of all the winners of the Alcuin Society Awards for Excellence in Book Design in Canada and I&rsquo;m happy to say that this project is finally complete, or at least complete enough to release online.">
+
+<meta property="og:title" content="The Alcuin Society Awards: Creating a Dataset and Looking at Rates of New Winners over Time" />
+<meta property="og:description" content="For the past few years, I&rsquo;ve been slowly poking away at a data project related to the history of book design in Canada. My goal was to produce a complete list of all the winners of the Alcuin Society Awards for Excellence in Book Design in Canada and I&rsquo;m happy to say that this project is finally complete, or at least complete enough to release online." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/" /><meta property="article:published_time" content="2019-07-23T08:21:51-04:00"/>
+<meta property="article:modified_time" content="2019-07-23T08:21:51-04:00"/>
+
+
+<title>
+
+
+     The Alcuin Society Awards: Creating a Dataset and Looking at Rates of New Winners over Time 
+
+</title>
+<link rel="canonical" href="http://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/">
+
+
+
+<script type="text/javascript">
+    var baseURL = 'http:\/\/www.granthurley.ca';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css">
+    
+        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://www.granthurley.ca/img/favicon.png"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            <div id="headerimage"><a href="http://www.granthurley.ca/"> <img src="http://www.granthurley.ca/img/Header1.jpg" alt="Grant Hurley | Archivist and Librarian">
+            <nav>
+                <ul>
+                    <li><a href="http://www.granthurley.ca/blog/">Blog</a></li>
+                    <li><a href="http://www.granthurley.ca/about/">About</a></li>
+                    <li><a href="http://www.granthurley.ca/research/">Research</a></li>
+                    <li><a href="http://www.granthurley.ca/cv/">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//twitter.com/granthurley" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+            <a href="//linkedin.com/in/grant-hurley-85352a64/" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+        <a href="//www.goodreads.com/user/show/2145498-grant" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/goodreads.png" alt="goodreads" /></a>
+        
+
+        
+        <a href="//scholar.google.ca/citations?user=k0OJV1sAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/googlescholar.png" alt="googlescholar" /></a>
+        
+
+           
+        <a href="//orcid.org/0000-0003-0172-4847" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/orcid.png" alt="orcid" /></a>
+        
+
+        
+
+        
+            <a href="mailto:grant@scholarsportal.info"><img class="icon" src="http://www.granthurley.ca/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="http://www.granthurley.ca/index.xml"><img class="icon" src="http://www.granthurley.ca/img/rss.svg" alt="rss" /></a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    The Alcuin Society Awards: Creating a Dataset and Looking at Rates of New Winners over Time
+
+</div>
+
+                    <div class="initials"><a href="http://www.granthurley.ca">ad</a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Tue Jul 23 2019 08:21:51 EDT'>Jul 23, 2019</div>
+                    
+                    
+                    <div class="reading-time"><div class="middot"></div>13 minute read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<div id="containerm">
+<figure>
+    <a href="http://alcuinsociety.com/content/wp-content/uploads/2019/07/AlcuinAwards-2018-Catalogue.pdf"> <img src="http://www.granthurley.ca/img/AlcuinAwards-2018-Catalogue.jpg" alt="The Alcuin Awards catalogue for 2018"></a>
+</figure>
+</div>
+
+<p>For the past few years, I&rsquo;ve been slowly poking away at a data project related to the history of book design in Canada.
+My goal was to produce a complete list of all the winners of the <a href="http://alcuinsociety.com/awards/">Alcuin Society Awards for Excellence in Book Design in Canada</a> and I&rsquo;m happy to say that this project is finally complete, or at least complete enough to release online. You can <a href="http://alcuinsociety.com/awards/previous-winners-resources/">download the dataset here</a>. The Society has been giving out awards for book design since 1981. Now, 37 competitions later, the list of winners comprises something that could be called a dataset: 1,047 entries with information on the winning books and the people who designed them. This includes the prize awarded (first, second, third, honourable mention) and the category it was awarded under (e.g. Poetry, Prose Fiction, Reference, etc.) This dataset will be of potential use for reference, of course, but could also be the subject of analysis. I took a stab at some analysis myself for the 2019 <a href="http://www.bsc-sbc.ca/en/">Bibliographical Society of Canada</a> annual conference in Vancouver, BC and provide a few notes from this presentation below. You can also see the <a href="http://www.granthurley.ca/pdf/Hurley-BSC2019-Alcuin-Awards.pdf">slides from my talk</a>. But first is a short explanation of how the dataset was created.</p>
+
+<h3 id="creating-the-dataset">Creating the Dataset</h3>
+
+<p>I&rsquo;ve been a member of the Alcuin Society since 2011, and started volunteering with the Society since 2013. When I started working more closely with the Awards team, I noticed that there was no online source listing the many Alcuin Awards winners over the years, and I took a step in this direction by developing a proof-of-concept relational database design as a class project during my degree program in archival and library studies at the University of British Columbia. Eventually, it became clear that the database idea was overcomplicating things: what was needed was an accurate listing. So I set about compiling one from the main sources available to me. I started in 2015 and look me a little while working on it off and on: what follows is a somewhat painful account of creating a structured dataset from unstructured information; if this kind of thing doesn&rsquo;t excite you, <a href="#analyzing-the-dataset">head to the next section</a> about analyzing it!</p>
+
+<p>The two main sources for Alcuin Awards winners is Appendix 1 of Robert Bringhurst&rsquo;s excellent <em>The Surface of Meaning: Books and Book Design in Canada</em>, and a document of winners after 2006 compiled by the Society&rsquo;s journal editor Peter Mitham. I tackled the Appendix first. The Bringhurst Appendix was itself compiled from entries in the Society&rsquo;s journal <em>Amphora</em> and individual Awards catalogues that started being published from 1996 onward. I scanned a copy of the Appendix and used Adobe Acrobat to OCR it. The goal was to turn each entry into structured text that could be separated out into columns. In order to do so, I needed a pattern that was consistent throughout. But the challenge was that though the Bringhurst-sourced entries followed a pattern, some of this pattern was around how the text was formatted, therefore making it challening to extract consistently. For example, the names of designers were in caps followed by an interpoint and then the book&rsquo;s author(s), title and publisher. The OCR scanning did not always represent the caps or interpoint correctly, and it is hard to do text extraction based on formatting anyway. So once I had copied and pasted this text into a document, I coded each of the sections that required one with a different character, like an asterisk. The rest already had a pattern that could be used for text separation, such as publisher names in brackets, and book titles beginning with a comma. This then enabled me to use Excel formulas like MID to separate out the different text elements into columns. I&rsquo;m sure there are smarter ways of doing this, but this seemed like the right balance of time spent researching a method vs. time just doing it the way I knew already.</p>
+
+<div id="containerm">
+<figure>
+    <img src="http://www.granthurley.ca/img/bringhurst.png" alt="An example entry from the Alcuin Awards appendix in Robert Bringhurst's The Surface of Meaning" align="center">
+    <figcaption>An example entry from the Alcuin Awards appendix in Robert Bringhurst's The Surface of Meaning</figcaption>
+</figure>
+</div>
+
+<p>The main challenge was more about the accuracy of the OCR output: I had to spent a lot of time cleaning up rough OCR, which really slowed the process down and is mostly why I kept leaving the project off for more fun things. I discovered way too late that members of the Society had a digital version of the Appendix, which would have save a ton of time. A lesson: in data projects, find the best source possible before you begin! The document from Peter was a bit easier to work with, since it had a fairly standard structure that I could use similar formulas to parse.</p>
+
+<p>After getting the data structured, I spent a good amount of time in <a href="http://openrefine.org/">OpenRefine</a> cleaning it up further. A lot of this involved getting rid of leading and trailing spaces, making sure publishers names were spelled correctly and that designers names matched up. I made sure that entries with more than one designer or publisher name were separated by a slash so it would be easy to parse these apart if required.</p>
+
+<p>I also discovered some issues with the Bringhurst Appendix during the compilation process. For one, the Appendix changed the way that Awards categories were represented over the years. For example, &ldquo;Juvenile&rdquo; was used as a category until 1995, when it switched to &ldquo;Children,&rdquo; but Bringhust uses &ldquo;Children&rdquo; throughout. It made sense to maintain this intervention, since these categories are essentially the same. But I ended up creating a <a href="https://docs.google.com/document/d/1VDVw1PhgjqUttaI-vuDw7LgViUcYEJ972av6M2J48FU">companion document</a> that includes a detailed list of the different categories used for Alcuin Awards over the years in case individuals were interested.</p>
+
+<p>I also noted a more serious issue in the Bringhurst Appendix that you would not notice at first glance unless you had the original source materials in hand: the winners from 1995 are missing. The reason is rooted in a major source of confusion about how the Awards have been represented over the years. In order to understand it, you first have to know that the Awards always take place in the year following a book&rsquo;s publication. At the beginning of the new year, publishers are asked to submit books published in the prior year. So, for the Awards that took place this year (2019), the books being recognized were published in 2018. In the past, the Society would sometimes refer to something like the &ldquo;Awards for 1988&rdquo;; this could mean this listing was for books published in 1987, if they were referring to the year the awards took place, or 1988, if they were referring to the year the books were actually published. In 1996 they started printing an independent catalogue of winners and labeled this catalogue &ldquo;1996.&rdquo; But the books listed in this catalogue were for 1995. For some reason, this catalogue was omitted entirely from the Appendix, but I assume the year confusion issue is why. Luckily, I was able to find a copy of the catalogue and include it in the new listing.</p>
+
+<h3 id="analyzing-the-dataset">Analyzing the Dataset</h3>
+
+<p>A big push to see the preparation of the winners data to the finish was being asked by the Society to submit a paper to the 2019 Bibliographical Society of Canada conference in Vancouver. The BSC specifically called for papers about book design, and the Society thought it would be nice to see some representation of its efforts at the conference. This was really the perfect motivation to see this project through and to start thinking about how the dataset might be used, so I jumped at the chance. I was glad to be joined at the conference by Peter Mitham who presented a great paper on the broader historical context of the Society.</p>
+
+<p>My main research question was whether the awards show a growth or contraction in relative numbers of new winning designers over time. Do the same names get represented over and over? Or do we see a greater diversity in terms of numbers of designers? In some ways the Awards don&rsquo;t have great long-term memory; this tends to be how awards work generally. Designers are celebrated each year and the focus is on the winners of that particular year. Then a year goes by and the focus switches to the new group of winners. I was curious how changes over time might be reflected in the dataset of winners.</p>
+
+<p>After presenting a short history of the Awards, I presented some basic initial stats:</p>
+
+<ul>
+<li>The numbers of winners have slowly risen over time, but has never exceeded 43 winners. The average is 29 winners per year.</li>
+<li>Numbers on submissions per year are incomplete, but in general the maximum number of submissions seems to have been 375 books in 1997 and has stabilized to around 200-250 submissions per year since then.</li>
+<li>Prizes have been relatively evenly distributed: First, Second and Third Prizes each constitute 22-24% of wins, while honourable mentions constitute almost 30% of citations.</li>
+<li>Designers generally work alone: 14% of the winners were collaborations between 2 or more designers, though this does not account for citations attributed to a group, like the name of a studio.</li>
+</ul>
+
+<div id="containerr">
+<figure>
+    <img src="http://www.granthurley.ca/img/alcuin-1.png" alt="A chart showing the increase in Awards winners over time" align="left">
+    <figcaption>The number of Awards winners per year</figcaption>
+</figure>
+</div>
+
+<p>Then I started looking at the designers more specifically. I extracted the names of 504 individual designers named across 1,242 citations (this number is accounting for collaborations). 9 designers had each received over 20 citations, making them constitute 26% of the group of named designers overall. At the other end, 359 designers had won only one award, constituting another 29%. The rest were in the middle, having won between 2 and 20 awards.</p>
+
+<p>Taking a closer look at this, I produced a chart of the relative number of first-time winners per year. For example, in 1983, 17 out of the 18 names represented were winning for the first time, making for a percentage of first-timers at 94%. This makes sense, since the Awards were new and few designers had been recognized by that point. But later on is where things start to reveal themselves. As you would expect, the number of winners starts off strong, and remains generally high through the 1990s - each year, and with an increasing number of submissions. The average of first-timers per year for the period from 1983, when the Awards became a consistent activity, and 2000, is 56%. This number declines after 2000; the average of first time winners from 2001 to 2018 (almost the same length of time) is 35%. So, there is a noticeable downturn in first-time winners after 2000. But as you can see, there is also a bit of an uptick again in 2016 and 2017 at 45% and 51%, respectively.</p>
+
+<div id="containerl">
+<figure>
+    <img src="http://www.granthurley.ca/img/alcuin-2.png" alt="A chart showing the decline in first-time winners over time" align="left">
+    <figcaption>Percentage of first-time Alcuin Award winners over time. The red line represents the overall average  of first-time winners at 43% per year. After 2001, the average number of first-time winners falls below this line  until 2016, when it jumps back up to 45% in 2016 and 51% in 2017.</figcaption>
+</figure>
+</div>
+
+<p>How might we account for this decline, and the subsequent uptick? Next up, I took a look at the top winning designers. What is fascinating is that of the top 10 designers, 6 of these started winning, and in fairly high proportions, after 2000. I charted the careers of 7 of the top 10 designers in another series of charts. You can see that an earlier, smaller cohort, has been winning consistently over time: Tim Inkster of The Porcupine&rsquo;s Quill, and Gordon Robertson, who worked with Coach House and Mercury Press among others, have been winning awards since the 1980s. But later, starting with his first win in 2000, arrives the phenom that is Andrew Steeves of Gaspereau Press. Gaspereau is an example of an independent press whose work extends from the vision and dedication of a single individual with a high level of control over the press&rsquo;s outputs. This has meant killing it on the Alcuin Awards front: Steeves won 54 citations from 2000 to 2015. Steeves&rsquo; chart shows a major decline after cleaning up with 7 citations in 2015 for a single reason: he stopped submitting books to the Awards with the view of &ldquo;mak[ing] way for the next generation of emerging designers&rdquo; (see his <a href="https://www.instagram.com/p/BPENrvnBTRs/?igshid=eq3yn7n53s6f">Instagram post on this</a>). Another chart of three other designers; Peter Cocking, Jessica Sullivan, and CS Richardson, represents a group of consistently successful designers working in the 2000s to the present.</p>
+
+<div id="containerr">
+<figure>
+    <img src="http://www.granthurley.ca/img/alcuin-3.png" alt="A chart showing the number if winning citations for 7 designers over time" align="left">
+    <figcaption>The top seven winning designers, with number of Awards over time.</figcaption>
+</figure>
+</div>
+
+<div id="containerr">
+<figure>
+    <img src="http://www.granthurley.ca/img/alcuin-4.png" alt="A chart showing the number of winning citations for Andrew Steeves over time" align="left">
+    <figcaption>Andrew Steeves' wins over time, showing a drop-off after 2015 when he recused himself from the Awards.</figcaption>
+</figure>
+</div>
+
+<div id="containerr">
+<figure>
+    <img src="http://www.granthurley.ca/img/alcuin-5.png" alt="A chart showing the number of winning citations for three designers over time" align="center">
+    <figcaption>Number of wins for Peter Cocking, Jessica Sullivan, and CS Richardson, who became an established cohort of recurring winners beginning in the 2000s</figcaption>
+</figure>
+</div>
+
+<p>So, what does all this mean? I posit that there is evidence of a cohort of winning designers that established itself in the 2000s and which has continued into the present. This cohort might represent an investment in design by publishers beginning in the 2000s, and in particular, a small group of designers. Andrew Steeves is evidence of the continued place of independent publishing in relation to successful design. In the catalogue for 2006, judge Alan Brownoff noted that &ldquo;there continues to be a small group of core book designers in Canada that consistently produce quality work for the publishers who employ them,&rdquo; which my analysis confirms. It would be interesting to flesh this out with more qualitative approaches to this information by talking to designers and publishers about the industry during this time. Was design a going concern and area of investment due to the (potential) destabilization of the print market due to digital products? Do the designers identified here feel the Awards benefited them? Or was their recognition simply incidental?</p>
+
+<p>Secondly, what to make of the more recent uptick in new designers? Andrew Steeves&rsquo; intervention must have had an effect, though that in itself would not necessarily guarantee new names. Another effect was definitely the introduction of the prize category for Comics in 2016; this entered new kinds of names that had not appeared in the competitions before. There is also an interesting observable trend of new designers picking up multiple awards after 2010; people like Natalie Olsen (13 wins since 2013), Kelly Hill (7 wins since 2012, plus two more in 2004 and 2007); Terri Nimmo (8 wins since 2012) and Jennifer Griffiths (already at 7 wins since 2017). I suspect these people represent an incoming cohort of new designers who are gaining work at established publishers.</p>
+
+<p>I also touched on publishers in my presentation, though in not as much detail. The general number of first-time winning publishers stabilized at an average of 29% in the early 1990s and has remained about the same since - clearly the sign of some consolidation. The loss of Douglas &amp; McIntyre in 2012 might account for a slight uptick in average numbers of new publishers after that date.</p>
+
+<p>As I mentioned before, this is all very much a first attempt at working with the Alcuin data. But it shows that this dataset can provide an interesting entry point into the history of publishing in Canada. While there are lots of variables, external factors and contexts it cannot answer, there are distinct patterns that could lead to interesting future investigations. And at the very least the Society now has a decent reference for its winners online, which I encourage you to explore and interrogate yourself!</p>
+
+                <br>
+                <p><a href="http://www.granthurley.ca/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "granthurley" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-97103484-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+
