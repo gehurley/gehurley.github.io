@@ -604,10 +604,10 @@ section.main .content .markdown h6 {
 }
 section.main .content .markdown code,
 section.main .content .markdown pre {
-  font-family: 'Arial', 'Menlo', monospace;
+  font-family: monospace;
   font-size: 1.1rem;
-  background-color: #817ae3b0;
-  color: #FFFFFF;
+  background-color: #D3D3D3;
+  color: #000000;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
@@ -803,3 +803,11 @@ section.headerimage img {
     margin: 10px;
 }
 
+.cvformat {
+  font-family: 'Arial', 'Menlo', monospace;
+  font-size: 1.1rem;
+  background-color: #817ae3b0;
+  color: #FFFFFF;
+  padding: .15em .5em;
+  border-radius: 2px;
+}

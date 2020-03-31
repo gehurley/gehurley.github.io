@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</loc>
+    <lastmod>2020-03-31T09:00:27-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/</loc>
     <lastmod>2019-08-01T08:21:51-04:00</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>http://www.granthurley.ca/blog/</loc>
-    <lastmod>2019-08-01T08:21:51-04:00</lastmod>
+    <lastmod>2020-03-31T09:00:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,7 +71,7 @@
   
   <url>
     <loc>http://www.granthurley.ca/</loc>
-    <lastmod>2019-08-01T08:21:51-04:00</lastmod>
+    <lastmod>2020-03-31T09:00:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   

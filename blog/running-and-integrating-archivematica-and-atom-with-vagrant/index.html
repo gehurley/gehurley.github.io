@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Grant Hurley">
+<meta name="description" content="Hark! An Archivematica-generated DIP in AtoM!   I really like the Vagrant option that Artefactual makes available for testing Archivematica and AtoM. It&rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&rsquo;t get admin access (probably for good reason), so when I need to verify something that requires root permissions it&rsquo;s really useful to have the local option.">
+
+<meta property="og:title" content="Running and Integrating Archivematica and AtoM with Vagrant" />
+<meta property="og:description" content="Hark! An Archivematica-generated DIP in AtoM!   I really like the Vagrant option that Artefactual makes available for testing Archivematica and AtoM. It&rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&rsquo;t get admin access (probably for good reason), so when I need to verify something that requires root permissions it&rsquo;s really useful to have the local option." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/" /><meta property="article:published_time" content="2020-03-31T09:00:27-04:00"/>
+<meta property="article:modified_time" content="2020-03-31T09:00:27-04:00"/>
+
+
+<title>
+
+
+     Running and Integrating Archivematica and AtoM with Vagrant 
+
+</title>
+<link rel="canonical" href="http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/">
+
+
+
+<script type="text/javascript">
+    var baseURL = 'http:\/\/www.granthurley.ca';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css">
+    
+        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://www.granthurley.ca/img/favicon.png"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            <div id="headerimage"><a href="http://www.granthurley.ca/"> <img src="http://www.granthurley.ca/img/Header1.jpg" alt="Grant Hurley | Archivist and Librarian">
+            <nav>
+                <ul>
+                    <li><a href="http://www.granthurley.ca/blog/">Blog</a></li>
+                    <li><a href="http://www.granthurley.ca/about/">About</a></li>
+                    <li><a href="http://www.granthurley.ca/research/">Research</a></li>
+                    <li><a href="http://www.granthurley.ca/cv/">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//twitter.com/granthurley" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+            <a href="//linkedin.com/in/grant-hurley-85352a64/" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+        <a href="//www.goodreads.com/user/show/2145498-grant" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/goodreads.png" alt="goodreads" /></a>
+        
+
+        
+        <a href="//scholar.google.ca/citations?user=k0OJV1sAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/googlescholar.png" alt="googlescholar" /></a>
+        
+
+           
+        <a href="//orcid.org/0000-0003-0172-4847" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/orcid.png" alt="orcid" /></a>
+        
+
+        
+
+        
+            <a href="mailto:grant@scholarsportal.info"><img class="icon" src="http://www.granthurley.ca/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="http://www.granthurley.ca/index.xml"><img class="icon" src="http://www.granthurley.ca/img/rss.svg" alt="rss" /></a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Running and Integrating Archivematica and AtoM with Vagrant
+
+</div>
+
+                    <div class="initials"><a href="http://www.granthurley.ca">ad</a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Tue Mar 31 2020 09:00:27 EDT'>Mar 31, 2020</div>
+                    
+                    
+                    <div class="reading-time"><div class="middot"></div>13 minute read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<div id="containerr">
+<figure>
+    <a href="http://www.granthurley.ca/img/5-dipinatom.png"> <img src="http://www.granthurley.ca/img/5-dipinatom.png" alt="Screenshot of a DIP in AtoM" align="left"></a>
+    <figcaption>Hark! An Archivematica-generated DIP in AtoM!</figcaption>
+</figure>
+</div>
+
+<p>I really like the <a href="https://www.vagrantup.com/">Vagrant</a> option that Artefactual makes available for testing <a href="https://www.archivematica.org">Archivematica</a> and <a href="https://www.accesstomemory.org/en/">AtoM</a>. It&rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&rsquo;t get admin access (probably for <a href="https://www.urbandictionary.com/define.php?term=rm%20-rf%20%2F">good reason</a>), so when I need to verify something that requires root permissions it&rsquo;s really useful to have the local option. I&rsquo;ve tried using <a href="https://github.com/artefactual-labs/am/tree/master/compose#docker-and-mac">Docker for Mac with Archivematica</a> but it&rsquo;s never really worked well for me, probably because it&rsquo;s in development, I don&rsquo;t really know Docker, and/or memory/space limitations.</p>
+
+<p>One thing I&rsquo;ve been trying to do for a while is get the Archivematica and AtoM Vagrant boxes to integrate around the DIP deposit feature so I can better understand the workflow between the two. The setup instructions that follow are specific to this: they will take you through the process of getting both VMs running at once, and then on how to integrate the two for the Archivematica to AtoM workflow. If you are thinking of setting up and connecting both applications at your workplace, doing so here should give you a good sense of how to connect the two in production, though of course with the difference of your own appropriate production deployment settings since Vagrant isn&rsquo;t suitable for production use.</p>
+
+<p>These instructions are current as of the time of writing. It assumes you are already familiar with Archivematica/AtoM generally and are comfortable using the command line (if you&rsquo;re not familiar with these things, check out Ashley Blewer&rsquo;s fantastic <a href="https://training.ashleyblewer.com/presentations/cli.html#1">intro to the command line deck</a> and the overviews of <a href="https://www.archivematica.org/en/docs/archivematica-1.10/#overview">Archivematica</a> and <a href="https://www.accesstomemory.org/en/docs/2.5/#overview">AtoM</a>). If you&rsquo;re also new to Vagrant a good way to start is to install either AtoM or Archivematica by themselves using the Vagrant instructions provided <a href="https://www.archivematica.org/en/docs/archivematica-1.10/getting-started/quick-start/quick-start/#installing-on-vm">here</a> and <a href="https://www.accesstomemory.org/en/docs/2.5/dev-manual/env/vagrant/#spin-it-up">here</a>. Make sure you have Vagrant and VirtualBox already installed as per <a href="https://www.archivematica.org/en/docs/archivematica-1.11/getting-started/quick-start/quick-start/#install-vagrant-and-virtualbox">the instructions in Archivematica&rsquo;s documentation</a>. Overall, I am very grateful to Artefactual for making these environments available and clearly documenting Vagrant setup and upgrades in the official documentation for each project.</p>
+
+<p>Get to know your vagrant commands as well:</p>
+
+<ul>
+<li><code>vagrant up</code> (gets a box up and running)</li>
+<li><code>vagrant suspend</code> (saves the current state if you have something in process, but takes more disk space)</li>
+<li><code>vagrant halt</code> (shuts down the machine; similar to shutting down your computer)</li>
+<li><code>vagrant status</code> (lets you know the status of your VMs in case you can&rsquo;t remember if something is running or not).</li>
+<li><code>vagrant destroy</code> (deletes the current machine, but not the base box - see below)</li>
+</ul>
+
+<p>Another note of interest is that when you first install a Vagrant box from source, it imports a base box that is then used as the local source for the VM. This is the version you are using when running <code>vagrant up</code>. But if you want to update that box, you have to replace it with a new version by running <code>vagrant box update</code>. This doesn&rsquo;t actually delete the older version from your machine either; you can list all boxes by running <code>vagrant box list</code> and remove any boxes by running <code>vagrant box remove</code> and identifying a version where appropriate. If you have installed a previous version for testing at some prior time, you may need to update your base box first.</p>
+
+<p>I&rsquo;m putting these instructions up because I&rsquo;ve so, so often found it helpful when others have documented their how-tos, especially when they have spelled out basic things to learn-as-you-go types like me. I can&rsquo;t guarantee they will work in your specific scenario and setup and I don&rsquo;t really a ton of knowhow to troubleshoot if something goes wrong, though the <a href="https://groups.google.com/forum/?fromgroups#!forum/archivematica">Archivematica</a>/<a href="https://groups.google.com/forum/#!forum/ica-atom-users">AtoM</a> forums are both great for this kind of advice. If you have suggestions for better/faster/smarter ways to do any of the below, let me know! I&rsquo;m sure there&rsquo;d be a nice way to automate all of this with Jenkins or something but that is way beyond me. Also, I&rsquo;m running OSX 10.14 with 8GB RAM and 4 CPUs on a 6-year-old MacBook Pro without much disk space left, so, you know, that comes into it too. You are more likely to run into issues relating to disk space and memory here than anything else. Finally, <a href="grant@scholarsportal.info">please drop me a line</a> if you find any errors in this post.</p>
+
+<h2 id="a-set-up-archivematica-and-atom-vagrant-boxes">A. Set up Archivematica and AtoM Vagrant boxes</h2>
+
+<p>There&rsquo;s a great way to set up and run multiple Vagrant VMs at once using a <a href="https://www.thisprogrammingthing.com/2015/multiple-vagrant-vms-in-one-vagrantfile/">method nicely explained here by Scott Keck-Warren</a>. I modified the example Vagrantfile in Keck-Warren&rsquo;s post for Archivematica and AtoM. This is copied below. The Archivematica VM is named &ldquo;am&rdquo; for short and the AtoM VM is named &ldquo;atom&rdquo;. The nice thing about this setup is that you can choose to run up both VMs at once, or just one, using their names, e.g. <code>vagrant up</code> for both, or <code>vagrant up am</code> for just Archivematica.</p>
+
+<p>1. Make a directory (I keep mine in my root user directory but I think you can put it anywhere). I&rsquo;m calling it <code>archives-vagrant</code> and cd into it:</p>
+
+<p><code>mkdir archives-vagrant &amp;&amp; cd archives-vagrant</code></p>
+
+<p>2. Create a text file called <code>Vagrantfile</code> with no extension using your favourite text editor and copy the below into it:</p>
+
+<pre><code>Vagrant.configure(&quot;2&quot;) do |config|
+  config.vm.define &quot;am&quot; do |am|
+    am.vm.box = &quot;artefactual/archivematica&quot;
+    am.vm.hostname = 'am'
+    am.vm.box_url = &quot;artefactual/archivematica&quot;
+
+    am.vm.network :private_network, ip: &quot;192.168.56.101&quot;
+    am.vm.network :forwarded_port, guest: 22, host: 10122, id: &quot;ssh&quot;
+
+    am.vm.provider :virtualbox do |v|
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--natdnshostresolver1&quot;, &quot;on&quot;]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--memory&quot;, 4096]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--cpus&quot;, 2]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--name&quot;, &quot;am&quot;]
+    end
+  end
+
+  config.vm.define &quot;atom&quot; do |atom|
+    atom.vm.box = &quot;artefactual/atom&quot;
+    atom.vm.hostname = 'atom'
+    atom.vm.box_url = &quot;artefactual/atom&quot;
+
+    atom.vm.network :private_network, ip: &quot;192.168.56.102&quot;
+    atom.vm.network :forwarded_port, guest: 22, host: 10222, id: &quot;ssh&quot;
+
+    atom.vm.provider :virtualbox do |v|
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--natdnshostresolver1&quot;, &quot;on&quot;]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--memory&quot;, 2048]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--cpus&quot;, 2]
+      v.customize [&quot;modifyvm&quot;, :id, &quot;--name&quot;, &quot;atom&quot;]
+    end
+  end
+
+end
+</code></pre>
+
+<p>What is going on in this file? This set of instructions tells Vagrant to import and create Vagrant boxes from the Archivematica and AtoM sources (or base box if you already have these downloaded by installing one or both boxes before). It has also created a private network and forwarded ports that do not conflict so you can run them both at once, and ssh from one into another easily. The IP addresses come in again later when we set up Archivematica to talk to AtoM.</p>
+
+<p>Secondly, I&rsquo;ve set specific RAM and CPU settings so that the boxes don&rsquo;t melt my computer when they run. Archivematica has been given 4GB RAM and 2 CPUs. The default for the Archivematica Vagrant box if you don&rsquo;t configure these is double this, I think. If you have more RAM/CPUs available on your computer you might not need this change. Archivematica works fine with these settings provided you are processing small packages. AtoM has been given 2GB RAM and 2 CPUs which is the default if you load the default AtoM box. These allow me to run the machines and also use my computer for other tasks without it all coming crashing down, but you might have to modify these settings for the limitations or capacity of your own system.</p>
+
+<p>3. Okay, now still within the <code>archives-vagrant</code> directory, run <code>vagrant up</code> and Vagrant will load your boxes together. This may take some time depending on your connection.</p>
+
+<div id="containerr">
+<figure>
+   <a href="http://www.granthurley.ca/img/1-loadingthebox.png"> <img src="http://www.granthurley.ca/img/1-loadingthebox.png" alt="Screenshot of the Archivematica Vagrant box loading"></a>
+    <figcaption>Loading the Archivematica Vagrant box</figcaption>
+</figure>
+</div>
+
+<p>4. Once they are running, you can go to your browser and open:</p>
+
+<ul>
+<li><a href="http://10.10.10.20">10.10.10.20</a> for Archivematica. Log in with the username <code>admin</code> and password <code>archivematica</code></li>
+<li><a href="http://10.10.10.10">10.10.10.10</a> for AtoM. Log in with the e-mail <code>demo@example.com</code> and password <code>demo</code></li>
+</ul>
+
+<p>If you get a &ldquo;502 Bad Gateway&rdquo; error in the browser for Archivematica it often resolves by just waiting a minute and then reloading the address.</p>
+
+<h2 id="b-implement-elasticsearch-fix-and-update-archivematica">B. Implement ElasticSearch fix and update Archivematica</h2>
+
+<p>If, like me, you are working with restricted disk space, you might need to implement the following fix to enable proper AIP indexing. This was helpfully <a href="https://groups.google.com/d/msg/archivematica/ljOHJaj9y_I/JUcwEoz3BQAJ">documented on the Archivematica forum</a>.</p>
+
+<p>1. Log into your Archivematica box<br />
+<code>vagrant ssh am</code></p>
+
+<p>2. Run the following commands:<br />
+    <code>sudo apt-get clean</code><br />
+    <code>sudo apt-get update</code></p>
+
+<p>3. Install curl with<br />
+<code>sudo apt-get install curl</code> (it isn&rsquo;t there by default)</p>
+
+<p>4. Run:</p>
+
+<pre><code>curl -XPUT -H &quot;Content-Type: application/json&quot; http://localhost:9200/_all/_settings -d '{&quot;index.blocks.read_only_allow_delete&quot;: null}'
+</code></pre>
+
+<p>The upgrade step below is optional, but currently, the version of Archivematica that ships with Vagrant is v. 1.10.0. To take advantage of bug fixes in 1.10.1 (and any future releases - it looks like 1.11 is going to be released soon!), you can choose to update Archivematica with these instructions.</p>
+
+<p>Instructions on updating a Vagrant machine are <a href="https://www.archivematica.org/en/docs/archivematica-1.10/admin-manual/installation-setup/upgrading/upgrading/#upgrade-on-vagrant-ansible">in the Archivematica documentation here</a> and you should check them against the below when upgrading to future versions. I&rsquo;m copying them here for simplicity but please head there to get the downlow on what all these steps are doing. Note that the upgrade will probably consume some resources and take a bit of time, so it&rsquo;s a good time to exit any memory-intensive applications you have open.</p>
+
+<p>1. First up, I found the upgrade fails unless you run as root:
+<code>sudo -i</code></p>
+
+<p>2. Then run
+<code>apt-get clean</code>
+<code>apt-get update</code>
+just in case - it&rsquo;s definitely needed if you did not run them already above.</p>
+
+<p>3. Archivematica&rsquo;s instructions get you to run <code>sudo pip install ansible</code> but you will likely get a warning that Ansible is already installed.</p>
+
+<p>4. Then run the following commands line by line:</p>
+
+<pre><code>git clone https://github.com/artefactual/deploy-pub.git
+cd deploy-pub/playbooks/archivematica-bionic
+ansible-galaxy install -f -p roles/ -r requirements.yml
+echo 'am-local   ansible_connection=local' &gt; hosts
+ansible-playbook -i hosts singlenode.yml --tags=elasticsearch,archivematica-src
+</code></pre>
+
+<div id="containerr">
+<figure>
+    <a href="http://www.granthurley.ca/img/2-successfulupdate.png"> <img src="http://www.granthurley.ca/img/2-successfulupdate.png" alt="A screenshot of the successful update of the Archivematica Vagrant box" align="left"></a>
+    <figcaption>A sign of the successful update of the Archivematica Vagrant box</figcaption>
+</figure>
+</div>
+
+<p>The last command will run the install script, which will run through its tasks and you will hopefully get a happy little recap at the end telling you all went well. You can now open to your Archivematica instance in the browser and head to Administration &gt; Version to see 1.10.1 reflected in the version line, and you should be able to process and store a transfer successfully.</p>
+
+<h2 id="c-check-into-atom">C. Check into AtoM</h2>
+
+<p>The version that installs with Vagrant is actually a bit ahead of the current public release - you get v. 2.6.0.2 with Vagrant whereas 2.5.3 is the current stable version. This is so that AtoM&rsquo;s Vagrant environment can be easily used for QA testing, I think. In my brief test I didn&rsquo;t see any major issues with using the qa/2.6 version here too, but instructions are at included the end of this post for using 2.5.3 in case you want to verify your tests against the current stable version.</p>
+
+<p>While you are at AtoM, you should also go and make a quick draft archival description - identifier, title, and selection of level of description (I usually pick fonds) is enough. You don&rsquo;t have to publish it.</p>
+
+<h2 id="d-integrate-archivematica-and-atom">D. Integrate Archivematica and AtoM</h2>
+
+<p>Alright, final step. The instructions for integrating Archivematica and AtoM are <a href="https://www.archivematica.org/en/docs/archivematica-1.10/admin-manual/installation-setup/customization/dashboard-config/#atom-server-configuration">laid out here</a> and also <a href="https://www.archivematica.org/en/docs/archivematica-1.10/admin-manual/installation-setup/integrations/atom-setup/#atom-setup">here</a>. I&rsquo;m copying them here for clarity but these are just slightly tweaked from Artefactual&rsquo;s documentation. You&rsquo;ll need both Vagrant boxes up and ready to roll.</p>
+
+<p>1. First, log in to the Archivematica vagrant box<br />
+<code>vagrant ssh am</code></p>
+
+<p>2. You will need a text editor for the next task, so install <a href="https://www.vim.org/">vim</a> (the classic, still widely used command line text editor), which isn&rsquo;t installed by default in the Vagrant box. I&rsquo;m writing out the vim commands here, but you can also learn them <a href="https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started">here</a>.<br />
+<code>sudo apt-get install vim</code></p>
+
+<p>3. After agreeing and installing the package, then run:<br />
+<code>sudo -u archivematica ssh-keygen</code></p>
+
+<p>4. When prompted with &ldquo;Enter file in which to save the key (/var/lib/archivematica/.ssh/id_rsa):&rdquo; hit enter. When prompted to enter a passphrase, keep it blank.</p>
+
+<p>5. Run the following, which will open up vim:<br />
+<code>sudo vim /var/lib/archivematica/.ssh/id_rsa.pub</code></p>
+
+<p>Copy the entire contents of this file from the first character up to, but not including, the ~ lines into a plain text file on your desktop or wherever.</p>
+
+<p>To quit vim write <code>:q</code> and then exit your archivematica machine (<code>exit</code>) and then login to your AtoM box with <code>vagrant ssh atom</code>.</p>
+
+<p>6. Now, inside AtoM, run the following, line by line:</p>
+
+<pre><code>sudo apt-get install rssh
+sudo useradd -d /home/archivematica -m -s /usr/bin/rssh archivematica
+sudo passwd -l archivematica
+</code></pre>
+
+<p>7. The following will open up vim again:
+<code>sudo vim /etc/rssh.conf</code></p>
+
+<p>Hit the letter <code>i</code> to edit this file, and uncomment (i.e. remove the # sign) from the line <code>allowrsync</code>. Hit the escape key and then write <code>:wq</code> to save the file and exit.</p>
+
+<p>8. Then run these two commands:</p>
+
+<pre><code>sudo mkdir /home/archivematica/.ssh
+sudo chmod 700 /home/archivematica/.ssh/
+</code></pre>
+
+<p>9. And run the following. This will open up vim yet again:<br />
+<code>sudo vim /home/archivematica/.ssh/authorized_keys</code></p>
+
+<p>Now it is time to paste in the contents of the ssh key you generated in Archivematica. Hit the &lsquo;i&rsquo; key, paste it in, hit escape and then <code>:wq</code> again. Make sure you&rsquo;ve got it all in there - the first time, I pasted it in without hitting &lsquo;i&rsquo; first and couldn&rsquo;t for the life of me figure out why ssh wasn&rsquo;t working!</p>
+
+<p>10. Finally, run:<br />
+<code>sudo chown -R archivematica:archivematica /home/archivematica</code><br />
+and exit AtoM.</p>
+
+<p>11. Okay, a little bit more back-and-forth. Vagrant ssh yourself back inside the Archivematica instance (<code>vagrant ssh am</code>) and become a root user via <code>sudo -i</code>.</p>
+
+<p>Then run <code>su archivematica</code> and then <code>ssh 192.168.56.102</code></p>
+
+<p>You&rsquo;ll get a warning starting with &ldquo;The authenticity of host &lsquo;192.168.56.102 (192.168.56.102)&rsquo; can&rsquo;t be established.&rdquo; Since you can trust this connection with yourself, enter &lsquo;yes&rsquo;.</p>
+
+<div id="containerr">
+<figure>
+    <a href="http://www.granthurley.ca/img/3-successfulssh.png"> <img src="http://www.granthurley.ca/img/3-successfulssh.png" alt="A screenshot of a successful ssh from Archivematica to AtoM" align="left"></a>
+    <figcaption>A successful ssh from Archivematica to AtoM</figcaption>
+</figure>
+</div>
+
+<p>If things are working, you will then be logged into AtoM! You should see a sweet ASCII logo of AtoM as if you were logged in through the normal method, and below it, &ldquo;This account is restricted by rssh. Allowed commands: rsync If you believe this is in error, please contact your system administrator. Connection to 192.168.56.102 closed.&rdquo; Thanks to Kevin Bowrin for identifying the importance of this step. It adds the AtoM instance to the Archivematica VM&rsquo;s list of known hosts so future connections can be run without intervention.</p>
+
+<p>12. Exit out of the archivematica user, root and then again out of your Archivematica instance. Use the ssh command one last time (for now) to get into your AtoM instance and run a couple restarts:</p>
+
+<pre><code>sudo service gearman-job-server restart
+sudo systemctl restart atom-worker
+</code></pre>
+
+<p>13. Logged into your AtoM VM through the browser, you can also head to Admin &gt; Plugins and enable the <strong>arRestApiPlugin</strong> to be able to fetch levels of description for use in the appraisal workflow and/or the metadata-only upload (there are a few other setup steps regarding this workflow <a href="https://www.archivematica.org/en/docs/archivematica-1.11/user-manual/access/access/#metadata-only-upload-to-atom">documented here</a>)</p>
+
+<p>14. Okay, last thing. In Archivematica, go to Administration &gt; AtoM/Binder DIP Upload and enter the following settings:</p>
+
+<ul>
+<li>Upload URL: <a href="http://10.10.10.10">http://10.10.10.10</a></li>
+<li>Login email: demo@example.com</li>
+<li>Login password: demo</li>
+<li>Rsync target: archivematica@192.168.56.102:/tmp/</li>
+</ul>
+
+<p>15. Now it&rsquo;s the moment of truth: run through a transfer, select normalization for access, send that DIP to a description in AtoM, and see your beautiful DIP uploaded!</p>
+
+<div id="containerr">
+<figure>
+    <a href="http://www.granthurley.ca/img/4-atomslug.png"> <img src="http://www.granthurley.ca/img/4-atomslug.png" alt="Entering the slug of the AtoM description where you are sendng your DIP" align="left"></a>
+    <figcaption>At the DIP upload step in Archivematica, entering the slug of the AtoM description where you are sendng your DIP</figcaption>
+</figure>
+</div>
+
+<h2 id="e-optional-downgrade-to-stable-atom-version">E. Optional: Downgrade to stable AtoM version</h2>
+
+<p>This is not a step, but an additional approach to installing your AtoM VM. The version that installs with Vagrant is 2.6.0, which is a QA version that is ahead of the current stable release. You can keep this as-is, or you could choose to run the most current stable version (right now, 2.5.3) if you are interested in verifying your tests against that release.</p>
+
+<p>The way to do this is to specify the version in your Vagrant file back up in step A by adding the following line:
+<code>atom.vm.box_version = &quot;2.5.0&quot;</code></p>
+
+<p>This will import the older version. The version it will import is actually a QA version of 2.5 so you will need to run a few upgrade steps within the AtoM box using the following instructions (adapted from the AtoM documentation <a href="https://www.accesstomemory.org/en/docs/2.5/dev-manual/env/vagrant/#keeping-the-environment-up-to-date">here</a>) to bring you up to the stable release.</p>
+
+<pre><code>vagrant ssh atom
+cd atom
+git fetch origin stable/2.5.x
+git checkout stable/2.5.x 
+php symfony cc
+sudo systemctl restart php7.0-fpm
+sudo systemctl restart atom-worker
+php symfony tools:upgrade-sql ## you will get a request to proceed
+php symfony search:populate
+make -C plugins/arDominionPlugin
+</code></pre>
+
+<p>You should now be able to log into your AtoM instance, navigate to Admin &gt; Settings and view the current version - 2.5.3. You&rsquo;d then proceed with step D above for the Archivematica integration.</p>
+
+                <br>
+                <p><a href="http://www.granthurley.ca/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "granthurley" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-97103484-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+

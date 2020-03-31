@@ -6,10 +6,19 @@
     <description>Recent content on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 01 Aug 2019 08:21:51 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 09:00:27 -0400</lastBuildDate>
     
 	<atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Running and Integrating Archivematica and AtoM with Vagrant</title>
+      <link>http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:27 -0400</pubDate>
+      
+      <guid>http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</guid>
+      <description>Hark! An Archivematica-generated DIP in AtoM!   I really like the Vagrant option that Artefactual makes available for testing Archivematica and AtoM. It&amp;rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&amp;rsquo;t get admin access (probably for good reason), so when I need to verify something that requires root permissions it&amp;rsquo;s really useful to have the local option.</description>
+    </item>
     
     <item>
       <title>The Alcuin Society Awards: Creating a Dataset and Looking at Rates of New Winners over Time</title>
