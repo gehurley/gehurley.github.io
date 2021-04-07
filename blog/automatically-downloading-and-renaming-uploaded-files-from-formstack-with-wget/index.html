@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Grant Hurley">
+<meta name="description" content="As part of a conference I am currently organizing, we use the site Formstack to gather information from speakers like their bios, paper titles and such. Formstack includes the ability for user to upload files to a form. In our case, we included the option for speakers upload photographs of themselves for inclusion in the program.
+Formstack does not have an automated way to export these files via their user interface as far as I am able to tell.">
+
+<meta property="og:title" content="Automatically Downloading and Renaming Uploaded Files from Formstack with wget" />
+<meta property="og:description" content="As part of a conference I am currently organizing, we use the site Formstack to gather information from speakers like their bios, paper titles and such. Formstack includes the ability for user to upload files to a form. In our case, we included the option for speakers upload photographs of themselves for inclusion in the program.
+Formstack does not have an automated way to export these files via their user interface as far as I am able to tell." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/" /><meta property="article:published_time" content="2021-04-07T02:06:04-04:00"/>
+<meta property="article:modified_time" content="2021-04-07T02:06:04-04:00"/>
+
+
+<title>
+
+
+     Automatically Downloading and Renaming Uploaded Files from Formstack with wget 
+
+</title>
+<link rel="canonical" href="http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/">
+
+
+
+<script type="text/javascript">
+    var baseURL = 'http:\/\/www.granthurley.ca';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css">
+    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css">
+    
+        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://www.granthurley.ca/img/favicon.png"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            <div id="headerimage"><a href="http://www.granthurley.ca/"> <img src="http://www.granthurley.ca/img/Header1.jpg" alt="Grant Hurley | Archivist and Librarian">
+            <nav>
+                <ul>
+                    <li><a href="http://www.granthurley.ca/blog/">Blog</a></li>
+                    <li><a href="http://www.granthurley.ca/about/">About</a></li>
+                    <li><a href="http://www.granthurley.ca/research/">Research</a></li>
+                    <li><a href="http://www.granthurley.ca/cv/">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//twitter.com/granthurley" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+            <a href="//linkedin.com/in/grant-hurley-85352a64/" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+        <a href="//www.goodreads.com/user/show/2145498-grant" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/goodreads.png" alt="goodreads" /></a>
+        
+
+        
+        <a href="//scholar.google.ca/citations?user=k0OJV1sAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/googlescholar.png" alt="googlescholar" /></a>
+        
+
+           
+        <a href="//orcid.org/0000-0003-0172-4847" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/orcid.png" alt="orcid" /></a>
+        
+
+        
+
+        
+            <a href="mailto:grant@scholarsportal.info"><img class="icon" src="http://www.granthurley.ca/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="http://www.granthurley.ca/index.xml"><img class="icon" src="http://www.granthurley.ca/img/rss.svg" alt="rss" /></a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Automatically Downloading and Renaming Uploaded Files from Formstack with wget
+
+</div>
+
+                    <div class="initials"><a href="http://www.granthurley.ca">ad</a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Wed Apr 7 2021 02:06:04 EDT'>Apr 7, 2021</div>
+                    
+                    
+                    <div class="reading-time"><div class="middot"></div>4 minute read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<p>As part of a <a href="https://archivists.ca/2021">conference</a> I am currently organizing, we use the site <a href="https://www.formstack.com/">Formstack</a> to gather information from speakers like their bios, paper titles and such. Formstack includes the ability for user to upload files to a form. In our case, we included the option for speakers upload photographs of themselves for inclusion in the program.</p>
+
+<p>Formstack does not have an automated way to export these files via their user interface as far as I am able to tell. When form submissions are exported from Formstack as an Excel or CSV file, the uploaded files are provided via a link to the Formstack site from which you can  download the file (provided you are logged in). When you have hundreds of files to download, this becomes a pain in the butt. The other issue is that the images are named with a unique ID appended to the original file name, making it hard to for us to match the image file to the speaker. And of course, speakers themselves don&rsquo;t use consistent file names either.</p>
+
+<p>I wanted to figure out a way to automatically download and rename the photos, and after some sleuthing and probably <a href="https://xkcd.com/1319/">more time taken than just doing it manually</a>, I eventually figured out a simple method. This is a pretty niche use case but it might be helpful for others struggling with a similar set of requirements. I could see this being applicable to lots of needs outside of Formstack too. The most useful resource I found when coming up with this process/script was the Stack Overflow post <a href="https://stackoverflow.com/questions/1324421/how-to-get-past-the-login-page-with-wget">&ldquo;How to get past the login page with Wget?&rdquo;</a>.</p>
+
+<h2 id="a-relevant-systems-stuff-you-ll-need">A. Relevant systems stuff you&rsquo;ll need:</h2>
+
+<ul>
+<li>The Mac or Linux terminal or some equivalent</li>
+<li><a href="https://formulae.brew.sh/formula/wget">wget</a> installed</li>
+<li>Google Chrome</li>
+</ul>
+
+<h2 id="b-format-the-links-csv-file">B. Format the links CSV file</h2>
+
+<p>The first thing to do is create a CSV file with the list of links in the first column and the intended output filename in the second column. This can easily be done by exporting the form submissions from Formstack in spreadsheet format, deleting all but the columns you need, and creating a concatenated column based on the speaker&rsquo;s name, for example. Re-save the file in CSV format, but not with Excel&rsquo;s UTF-8 encoding format option since this will add a BOF file marker you would have to remove.</p>
+
+<pre><code>https://www.formstack.com/admin/download/file/5959596969,GeorgeBrown.jpg
+https://www.formstack.com/admin/download/file/5959596970,MariaSmith.jpg
+</code></pre>
+
+<p>In my case I wanted all files renamed with the .jpg extension. If there are multiple types of file formats expected then it might be trickier, requiring a mime-type check or the like. Formstack allows you to limit uploads by file by extension so that might be something to consider when designing the form too.</p>
+
+<p>One thing to check with your CSV is that if you are using Excel, it will add a carriage return character (\r) or <code>0D</code> in hex to the ending of lines. You will need to get rid of this so that the text file can be processed using your bash terminal.</p>
+
+<p>There are various ways to do this (See <a href="https://stackoverflow.com/questions/800030/remove-carriage-return-in-unix">&ldquo;Remove carriage return in unix&rdquo;</a>) but what worked for me is just running <code>gsed 's/\r$//' infile.csv &gt; outfile.csv</code> (I use the gsed tool since <a href="https://stackoverflow.com/questions/4247068/sed-command-with-i-option-failing-on-mac-but-works-on-linux">Mac&rsquo;s version of sed is not as full-featured</a>).</p>
+
+<h2 id="b-get-cookies-file">B. Get cookies file</h2>
+
+<p>Next, install the Chrome extension <a href="https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid?hl=en">Get Cookies.txt</a>. This handy tool will allow you to export the cookies.txt file for a browser session. This file will essentially give permission to your terminal to access the website as a logged-in user.</p>
+
+<p>Log in to Formstack and export the cookies file. Click on the Get Cookies.txt extension and then &lsquo;Export&rsquo; to download the file. It should have the filename <code>formstack.com_cookies.txt</code> Note that you will need to download a new cookies file for each new logged-in session in Formstack; if you have logged out of Formstack then you will need to log back in and re-export the file.</p>
+
+<h2 id="c-run-the-script">C. Run the script</h2>
+
+<p>1. Put the csv file and the formstack.com_cookies.txt file in the same folder.</p>
+
+<p>2. Create a text file, copy and paste the script below, and edit it so that the path to the cookies file is correct in line 3 and the filename of your CSV matches in line 4.</p>
+
+<pre><code>while IFS=, read -r field1 field2 || [ -n &quot;$field1&quot; ] ; do
+	echo &quot;$field1 and $field2&quot;
+	wget --load-cookies /Path/To/formstack.com_cookies.txt &quot;$field1&quot; -O &quot;$field2&quot;
+done &lt; links.csv
+</code></pre>
+
+<p>3. Save the script with a .sh extension. Name the script whatever you like.</p>
+
+<p>4. In the terminal, <code>cd</code> into the folder you created and then run the script by running <code>bash script.sh</code>, with <code>script.sh</code> being the name of your bash script file.</p>
+
+<p>5. The script should then start downloading your files from Formstack, renamed all nice!</p>
+
+                <br>
+                <p><a href="http://www.granthurley.ca/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "granthurley" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-97103484-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+

@@ -6,10 +6,20 @@
     <description>Recent content on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 31 Mar 2020 09:00:27 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 02:06:04 -0400</lastBuildDate>
     
 	<atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automatically Downloading and Renaming Uploaded Files from Formstack with wget</title>
+      <link>http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</link>
+      <pubDate>Wed, 07 Apr 2021 02:06:04 -0400</pubDate>
+      
+      <guid>http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</guid>
+      <description>As part of a conference I am currently organizing, we use the site Formstack to gather information from speakers like their bios, paper titles and such. Formstack includes the ability for user to upload files to a form. In our case, we included the option for speakers upload photographs of themselves for inclusion in the program.
+Formstack does not have an automated way to export these files via their user interface as far as I am able to tell.</description>
+    </item>
     
     <item>
       <title>Running and Integrating Archivematica and AtoM with Vagrant</title>
