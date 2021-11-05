@@ -14,7 +14,7 @@
 <meta property="og:title" content="Running and Integrating Archivematica and AtoM with Vagrant" />
 <meta property="og:description" content="Hark! An Archivematica-generated DIP in AtoM!   I really like the Vagrant option that Artefactual makes available for testing Archivematica and AtoM. It&rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&rsquo;t get admin access (probably for good reason), so when I need to verify something that requires root permissions it&rsquo;s really useful to have the local option." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/" /><meta property="article:published_time" content="2020-03-31T09:00:27-04:00"/>
+<meta property="og:url" content="https://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/" /><meta property="article:published_time" content="2020-03-31T09:00:27-04:00"/>
 <meta property="article:modified_time" content="2020-03-31T09:00:27-04:00"/>
 
 
@@ -24,12 +24,12 @@
      Running and Integrating Archivematica and AtoM with Vagrant 
 
 </title>
-<link rel="canonical" href="http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/">
+<link rel="canonical" href="https://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/">
 
 
 
 <script type="text/javascript">
-    var baseURL = 'http:\/\/www.granthurley.ca';
+    var baseURL = 'https:\/\/www.granthurley.ca';
     var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
     if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
         window.location.protocol = 'https:';
@@ -49,11 +49,11 @@
 
 
 
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/reset.css">
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/pygments.css">
-    <link rel="stylesheet" href="http://www.granthurley.ca/css/main.css">
+    <link rel="stylesheet" href="https://www.granthurley.ca/css/reset.css">
+    <link rel="stylesheet" href="https://www.granthurley.ca/css/pygments.css">
+    <link rel="stylesheet" href="https://www.granthurley.ca/css/main.css">
     
-        <link rel="stylesheet" href="http://www.granthurley.ca/css/override.css">
+        <link rel="stylesheet" href="https://www.granthurley.ca/css/override.css">
     
 
 
@@ -61,7 +61,7 @@
 
 <link rel="shortcut icon"
 
-    href="http://www.granthurley.ca/img/favicon.png"
+    href="https://www.granthurley.ca/img/favicon.png"
 
 >
 
@@ -80,13 +80,13 @@
 <section class="header">
     <div class="container">
         <div class="content">
-            <div id="headerimage"><a href="http://www.granthurley.ca/"> <img src="http://www.granthurley.ca/img/Header1.jpg" alt="Grant Hurley | Archivist and Librarian">
+            <div id="headerimage"><a href="https://www.granthurley.ca/"> <img src="https://www.granthurley.ca/img/Header1.jpg" alt="Grant Hurley | Archivist and Librarian">
             <nav>
                 <ul>
-                    <li><a href="http://www.granthurley.ca/blog/">Blog</a></li>
-                    <li><a href="http://www.granthurley.ca/about/">About</a></li>
-                    <li><a href="http://www.granthurley.ca/research/">Research</a></li>
-                    <li><a href="http://www.granthurley.ca/cv/">CV</a></li>
+                    <li><a href="https://www.granthurley.ca/blog/">Blog</a></li>
+                    <li><a href="https://www.granthurley.ca/about/">About</a></li>
+                    <li><a href="https://www.granthurley.ca/research/">Research</a></li>
+                    <li><a href="https://www.granthurley.ca/cv/">CV</a></li>
                 </ul>
             </nav>
         </div>
@@ -98,35 +98,35 @@
         <div class="content">
 
         
-            <a href="//twitter.com/granthurley" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/twitter.svg" alt="twitter" /></a>
+            <a href="//twitter.com/granthurley" target="_blank" rel="noopener"><img class="icon" src="https://www.granthurley.ca/img/twitter.svg" alt="twitter" /></a>
         
 
         
-            <a href="//linkedin.com/in/grant-hurley-85352a64/" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/linkedin.svg" alt="linkedin" /></a>
+            <a href="//linkedin.com/in/grant-hurley-85352a64/" target="_blank" rel="noopener"><img class="icon" src="https://www.granthurley.ca/img/linkedin.svg" alt="linkedin" /></a>
         
 
         
 
         
-        <a href="//www.goodreads.com/user/show/2145498-grant" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/goodreads.png" alt="goodreads" /></a>
+        <a href="//www.goodreads.com/user/show/2145498-grant" target="_blank" rel="noopener"><img class="icon" src="https://www.granthurley.ca/img/goodreads.png" alt="goodreads" /></a>
         
 
         
-        <a href="//scholar.google.ca/citations?user=k0OJV1sAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/googlescholar.png" alt="googlescholar" /></a>
+        <a href="//scholar.google.ca/citations?user=k0OJV1sAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="icon" src="https://www.granthurley.ca/img/googlescholar.png" alt="googlescholar" /></a>
         
 
            
-        <a href="//orcid.org/0000-0003-0172-4847" target="_blank" rel="noopener"><img class="icon" src="http://www.granthurley.ca/img/orcid.png" alt="orcid" /></a>
+        <a href="//orcid.org/0000-0003-0172-4847" target="_blank" rel="noopener"><img class="icon" src="https://www.granthurley.ca/img/orcid.png" alt="orcid" /></a>
         
 
         
 
         
-            <a href="mailto:grant@scholarsportal.info"><img class="icon" src="http://www.granthurley.ca/img/email.svg" alt="email" /></a>
+            <a href="mailto:grant@scholarsportal.info"><img class="icon" src="https://www.granthurley.ca/img/email.svg" alt="email" /></a>
         
 
         
-            <a href="http://www.granthurley.ca/index.xml"><img class="icon" src="http://www.granthurley.ca/img/rss.svg" alt="rss" /></a>
+            <a href="https://www.granthurley.ca/index.xml"><img class="icon" src="https://www.granthurley.ca/img/rss.svg" alt="rss" /></a>
         
         </div>
     </div>
@@ -144,7 +144,7 @@
 
 </div>
 
-                    <div class="initials"><a href="http://www.granthurley.ca">ad</a></div>
+                    <div class="initials"><a href="https://www.granthurley.ca">ad</a></div>
                 </div>
                 <div class="meta">
                     
@@ -160,7 +160,7 @@
 
 <div id="containerr">
 <figure>
-    <a href="http://www.granthurley.ca/img/5-dipinatom.png"> <img src="http://www.granthurley.ca/img/5-dipinatom.png" alt="Screenshot of a DIP in AtoM" align="left"></a>
+    <a href="https://www.granthurley.ca/img/5-dipinatom.png"> <img src="https://www.granthurley.ca/img/5-dipinatom.png" alt="Screenshot of a DIP in AtoM" align="left"></a>
     <figcaption>Hark! An Archivematica-generated DIP in AtoM!</figcaption>
 </figure>
 </div>
@@ -239,7 +239,7 @@ end
 
 <div id="containerr">
 <figure>
-   <a href="http://www.granthurley.ca/img/1-loadingthebox.png"> <img src="http://www.granthurley.ca/img/1-loadingthebox.png" alt="Screenshot of the Archivematica Vagrant box loading"></a>
+   <a href="https://www.granthurley.ca/img/1-loadingthebox.png"> <img src="https://www.granthurley.ca/img/1-loadingthebox.png" alt="Screenshot of the Archivematica Vagrant box loading"></a>
     <figcaption>Loading the Archivematica Vagrant box</figcaption>
 </figure>
 </div>
@@ -297,7 +297,7 @@ ansible-playbook -i hosts singlenode.yml --tags=elasticsearch,archivematica-src
 
 <div id="containerr">
 <figure>
-    <a href="http://www.granthurley.ca/img/2-successfulupdate.png"> <img src="http://www.granthurley.ca/img/2-successfulupdate.png" alt="A screenshot of the successful update of the Archivematica Vagrant box" align="left"></a>
+    <a href="https://www.granthurley.ca/img/2-successfulupdate.png"> <img src="https://www.granthurley.ca/img/2-successfulupdate.png" alt="A screenshot of the successful update of the Archivematica Vagrant box" align="left"></a>
     <figcaption>A sign of the successful update of the Archivematica Vagrant box</figcaption>
 </figure>
 </div>
@@ -367,7 +367,7 @@ and exit AtoM.</p>
 
 <div id="containerr">
 <figure>
-    <a href="http://www.granthurley.ca/img/3-successfulssh.png"> <img src="http://www.granthurley.ca/img/3-successfulssh.png" alt="A screenshot of a successful ssh from Archivematica to AtoM" align="left"></a>
+    <a href="https://www.granthurley.ca/img/3-successfulssh.png"> <img src="https://www.granthurley.ca/img/3-successfulssh.png" alt="A screenshot of a successful ssh from Archivematica to AtoM" align="left"></a>
     <figcaption>A successful ssh from Archivematica to AtoM</figcaption>
 </figure>
 </div>
@@ -395,7 +395,7 @@ sudo systemctl restart atom-worker
 
 <div id="containerr">
 <figure>
-    <a href="http://www.granthurley.ca/img/4-atomslug.png"> <img src="http://www.granthurley.ca/img/4-atomslug.png" alt="Entering the slug of the AtoM description where you are sendng your DIP" align="left"></a>
+    <a href="https://www.granthurley.ca/img/4-atomslug.png"> <img src="https://www.granthurley.ca/img/4-atomslug.png" alt="Entering the slug of the AtoM description where you are sendng your DIP" align="left"></a>
     <figcaption>At the DIP upload step in Archivematica, entering the slug of the AtoM description where you are sendng your DIP</figcaption>
 </figure>
 </div>
@@ -424,7 +424,7 @@ make -C plugins/arDominionPlugin
 <p>You should now be able to log into your AtoM instance, navigate to Admin &gt; Settings and view the current version - 2.5.3. You&rsquo;d then proceed with step D above for the Archivematica integration.</p>
 
                 <br>
-                <p><a href="http://www.granthurley.ca/blog/">Back to posts</a></p>
+                <p><a href="https://www.granthurley.ca/blog/">Back to posts</a></p>
             </div>
             <br>
             <div class="disqus">

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fixed on Grant Hurley</title>
-    <link>http://www.granthurley.ca/fixed/</link>
+    <link>https://www.granthurley.ca/fixed/</link>
     <description>Recent content in Fixed on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 13 Mar 2017 15:52:50 -0400</lastBuildDate>
     
-	<atom:link href="http://www.granthurley.ca/fixed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.granthurley.ca/fixed/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Grant Hurley | CV</title>
-      <link>http://www.granthurley.ca/cv/</link>
+      <link>https://www.granthurley.ca/cv/</link>
       <pubDate>Mon, 13 Mar 2017 15:52:50 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/cv/</guid>
+      <guid>https://www.granthurley.ca/cv/</guid>
       <description>Current Role Current Committee &amp;amp; Service Roles
  Education Certifications Past Roles Past Committee &amp;amp; Service Roles Teaching Awards &amp;amp; Grants  Current Role Digital Preservation Librarian, Scholars Portal, Ontario Council of University Libraries/University of Toronto.
  Lead the Scholars Portal digital preservation program to fulfill the Ontario Council of University Libraries’ mandate to preserve shared academic library collections and support member capacity. Manage and grow the Permafrost hosted digital preservation service, including providing all front-line client onboarding, billing, training and support; writing documentation and guides; developing new features; and working with Scholars Portal’s systems staff to maintain the technical components.</description>
@@ -24,19 +24,19 @@
     
     <item>
       <title>Grant Hurley | Research</title>
-      <link>http://www.granthurley.ca/research/</link>
+      <link>https://www.granthurley.ca/research/</link>
       <pubDate>Thu, 09 Feb 2017 08:48:30 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/research/</guid>
+      <guid>https://www.granthurley.ca/research/</guid>
       <description>Refereed Articles Non-Refereed Articles Book Chapters Reports Proceedings Book Reviews Theses Conference Presentations &amp;amp; Posters Talks &amp;amp; Webinars Exhibitions &amp;amp; History Projects  Research Interests: I am interested in many things relating to archives and libraries, including: making digital preservation activities accessible and actionable; digital preservation workflows, standards and certification; open government, open data, and citizen engagement; and subjects relating to archival theory and practice more broadly, such as community archives and decolonization.</description>
     </item>
     
     <item>
       <title>Grant Hurley | About</title>
-      <link>http://www.granthurley.ca/about/</link>
+      <link>https://www.granthurley.ca/about/</link>
       <pubDate>Wed, 08 Feb 2017 16:16:04 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/about/</guid>
+      <guid>https://www.granthurley.ca/about/</guid>
       <description>Hello. I am an archivist and librarian. I work as the Digital Preservation Librarian for Scholars Portal, the information technology service for the Ontario Council of University Libraries. The work of digital archives and preservation is firmly grounded in the lands where digital records are stewarded and where its practitioners and stakeholders live and work. I am grateful to be on the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River.</description>
     </item>
     

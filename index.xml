@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grant Hurley</title>
-    <link>http://www.granthurley.ca/</link>
+    <link>https://www.granthurley.ca/</link>
     <description>Recent content on Grant Hurley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 07 Apr 2021 02:06:04 -0400</lastBuildDate>
     
-	<atom:link href="http://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.granthurley.ca/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Automatically Downloading and Renaming Uploaded Files from Formstack with wget</title>
-      <link>http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</link>
+      <link>https://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</link>
       <pubDate>Wed, 07 Apr 2021 02:06:04 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</guid>
+      <guid>https://www.granthurley.ca/blog/automatically-downloading-and-renaming-uploaded-files-from-formstack-with-wget/</guid>
       <description>As part of a conference I am currently organizing, we use the site Formstack to gather information from speakers like their bios, paper titles and such. Formstack includes the ability for user to upload files to a form. In our case, we included the option for speakers upload photographs of themselves for inclusion in the program.
 Formstack does not have an automated way to export these files via their user interface as far as I am able to tell.</description>
     </item>
     
     <item>
       <title>Running and Integrating Archivematica and AtoM with Vagrant</title>
-      <link>http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</link>
+      <link>https://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</link>
       <pubDate>Tue, 31 Mar 2020 09:00:27 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</guid>
+      <guid>https://www.granthurley.ca/blog/running-and-integrating-archivematica-and-atom-with-vagrant/</guid>
       <description>Hark! An Archivematica-generated DIP in AtoM!   I really like the Vagrant option that Artefactual makes available for testing Archivematica and AtoM. It&amp;rsquo;s quick and easy to get an instance of each up and running that is great for testing in a super low-risk situation. Though we also have development instances of Archivematica for this purpose at my workplace, one understandable but roadblock-y thing is that librarians/archivists like myself don&amp;rsquo;t get admin access (probably for good reason), so when I need to verify something that requires root permissions it&amp;rsquo;s really useful to have the local option.</description>
     </item>
     
     <item>
       <title>The Alcuin Society Awards: Creating a Dataset and Looking at Rates of New Winners over Time</title>
-      <link>http://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/</link>
+      <link>https://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/</link>
       <pubDate>Thu, 01 Aug 2019 08:21:51 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/</guid>
+      <guid>https://www.granthurley.ca/blog/the-alcuin-society-awards-creating-a-dataset-and-looking-at-rates-of-new-winners-over-time/</guid>
       <description>This post was also published on the Alcuin Society&amp;rsquo;s blog.
 For the past few years, I&amp;rsquo;ve been slowly poking away at a data project related to the history of book design in Canada. My goal was to produce a complete list of all the winners of the Alcuin Society Awards for Excellence in Book Design in Canada and I&amp;rsquo;m happy to say that this project is finally complete, or at least complete enough to release online.</description>
     </item>
     
     <item>
       <title>Digital Preservation is People: Thinking About Digital Skills for Archivists</title>
-      <link>http://www.granthurley.ca/blog/digital-preservation-is-people-thinking-about-digital-skills-for-archivists/</link>
+      <link>https://www.granthurley.ca/blog/digital-preservation-is-people-thinking-about-digital-skills-for-archivists/</link>
       <pubDate>Thu, 20 Dec 2018 19:47:46 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/digital-preservation-is-people-thinking-about-digital-skills-for-archivists/</guid>
+      <guid>https://www.granthurley.ca/blog/digital-preservation-is-people-thinking-about-digital-skills-for-archivists/</guid>
       <description>This piece was originally presented as part of the afternoon panel on digital preservation at the Archives Association of Ontario’s 2018 Institutional Issues Forum on October 25, 2018. Many thanks to the AAO for hosting me and giving me a space to think through some issues that have been on my mind for a while. My thanks also go to Ryan Kirkby for shepherding the session, to Heather Ryckman, my excellent fellow panelist.</description>
     </item>
     
     <item>
       <title>Three Synthesis Statements on Open Government and Archives and Records Management</title>
-      <link>http://www.granthurley.ca/blog/three-synthesis-statements-on-open-government-and-archives-and-records-management/</link>
+      <link>https://www.granthurley.ca/blog/three-synthesis-statements-on-open-government-and-archives-and-records-management/</link>
       <pubDate>Thu, 30 Nov 2017 11:05:13 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/three-synthesis-statements-on-open-government-and-archives-and-records-management/</guid>
+      <guid>https://www.granthurley.ca/blog/three-synthesis-statements-on-open-government-and-archives-and-records-management/</guid>
       <description>As the InterPARES Trust project starts to wrap up, it has provided an occaison to reflect on the five years of work (!) that was completed. I was priveleged to work as a research assistant and later research consultant (i.e. pro bono post-graduation) on project NA08: &amp;ldquo;The Implications of Open Government, Open Data, and Big Data on the Management of Digital Records in an Online Environment.&amp;rdquo; NA08 included some fantastic people and inspirational professionals: Valerie Léveillé, John McDonald, Kelly Rovegno, Jim Suderman, and Kat Timms, who produced an impressive body of papers and insights from this project.</description>
     </item>
     
     <item>
       <title>Notes From the ACA Screening of Stories We Tell</title>
-      <link>http://www.granthurley.ca/blog/notes-from-the-aca-screening-of-stories-we-tell/</link>
+      <link>https://www.granthurley.ca/blog/notes-from-the-aca-screening-of-stories-we-tell/</link>
       <pubDate>Fri, 23 Jun 2017 11:44:22 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/notes-from-the-aca-screening-of-stories-we-tell/</guid>
+      <guid>https://www.granthurley.ca/blog/notes-from-the-aca-screening-of-stories-we-tell/</guid>
       <description>At the recent ACA conference in Ottawa, I had the wonderful opportunity to host a screening of one of my favorite films - Sarah Polley&amp;rsquo;s 2012 documentary Stories We Tell. I&amp;rsquo;ve long been convinced that this film has a lot to say about archives. It’s a film fundamentally concerned with how we understand the past through the contradictions of memory and the opaque borders shared between memories and what has been recorded.</description>
     </item>
     
     <item>
       <title>Taking &#39;Collaboration&#39; from Buzzword to Action: A Take on the AAO 2017 Conference</title>
-      <link>http://www.granthurley.ca/blog/taking-collaboration-from-buzzword-to-action-a-take-on-the-aao-2017-conference/</link>
+      <link>https://www.granthurley.ca/blog/taking-collaboration-from-buzzword-to-action-a-take-on-the-aao-2017-conference/</link>
       <pubDate>Tue, 09 May 2017 21:06:04 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/taking-collaboration-from-buzzword-to-action-a-take-on-the-aao-2017-conference/</guid>
+      <guid>https://www.granthurley.ca/blog/taking-collaboration-from-buzzword-to-action-a-take-on-the-aao-2017-conference/</guid>
       <description>A conference swag item was this coaster with embedded flower seeds. Quite a nice metaphor, no?   Though I’ve been a volunteer for the Archives Association of Ontario since late 2015, I finally had the chance to attend my first AAO conference last month at the Faculty of Information at the University of Toronto. I’d long heard that the AAO conference is one that is firmly devoted to archival practice, and this edition (the 14th since 2004!</description>
     </item>
     
     <item>
       <title>Hello World &amp; Situating Myself</title>
-      <link>http://www.granthurley.ca/blog/hello-world-situating-myself/</link>
+      <link>https://www.granthurley.ca/blog/hello-world-situating-myself/</link>
       <pubDate>Sun, 09 Apr 2017 16:02:31 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/blog/hello-world-situating-myself/</guid>
+      <guid>https://www.granthurley.ca/blog/hello-world-situating-myself/</guid>
       <description>In the tradition of &amp;lsquo;hello world&amp;rsquo; posts everywhere, I&amp;rsquo;d like to begin this blog by greeting anyone out there in internet land, particularly archives-and-libraries-on-the-internet-land. This blog is a place to hold my thoughts, to write out a problem or question that&amp;rsquo;s been nagging me, and to report on the successes and failures of my work. I&amp;rsquo;m especially interested in interrogating questions in archival theory and practice, and particularly, in digital preservation and related areas of study.</description>
     </item>
     
     <item>
       <title>Grant Hurley | CV</title>
-      <link>http://www.granthurley.ca/cv/</link>
+      <link>https://www.granthurley.ca/cv/</link>
       <pubDate>Mon, 13 Mar 2017 15:52:50 -0400</pubDate>
       
-      <guid>http://www.granthurley.ca/cv/</guid>
+      <guid>https://www.granthurley.ca/cv/</guid>
       <description>Current Role Current Committee &amp;amp; Service Roles
  Education Certifications Past Roles Past Committee &amp;amp; Service Roles Teaching Awards &amp;amp; Grants  Current Role Digital Preservation Librarian, Scholars Portal, Ontario Council of University Libraries/University of Toronto.
  Lead the Scholars Portal digital preservation program to fulfill the Ontario Council of University Libraries’ mandate to preserve shared academic library collections and support member capacity. Manage and grow the Permafrost hosted digital preservation service, including providing all front-line client onboarding, billing, training and support; writing documentation and guides; developing new features; and working with Scholars Portal’s systems staff to maintain the technical components.</description>
@@ -98,19 +98,19 @@ For the past few years, I&amp;rsquo;ve been slowly poking away at a data project
     
     <item>
       <title>Grant Hurley | Research</title>
-      <link>http://www.granthurley.ca/research/</link>
+      <link>https://www.granthurley.ca/research/</link>
       <pubDate>Thu, 09 Feb 2017 08:48:30 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/research/</guid>
+      <guid>https://www.granthurley.ca/research/</guid>
       <description>Refereed Articles Non-Refereed Articles Book Chapters Reports Proceedings Book Reviews Theses Conference Presentations &amp;amp; Posters Talks &amp;amp; Webinars Exhibitions &amp;amp; History Projects  Research Interests: I am interested in many things relating to archives and libraries, including: making digital preservation activities accessible and actionable; digital preservation workflows, standards and certification; open government, open data, and citizen engagement; and subjects relating to archival theory and practice more broadly, such as community archives and decolonization.</description>
     </item>
     
     <item>
       <title>Grant Hurley | About</title>
-      <link>http://www.granthurley.ca/about/</link>
+      <link>https://www.granthurley.ca/about/</link>
       <pubDate>Wed, 08 Feb 2017 16:16:04 -0500</pubDate>
       
-      <guid>http://www.granthurley.ca/about/</guid>
+      <guid>https://www.granthurley.ca/about/</guid>
       <description>Hello. I am an archivist and librarian. I work as the Digital Preservation Librarian for Scholars Portal, the information technology service for the Ontario Council of University Libraries. The work of digital archives and preservation is firmly grounded in the lands where digital records are stewarded and where its practitioners and stakeholders live and work. I am grateful to be on the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River.</description>
     </item>
     
